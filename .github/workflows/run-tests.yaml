@@ -11,6 +11,8 @@ jobs:
       matrix:
         test_type:
           - episode
+          - id
+          - location
     runs-on: ubuntu-latest
 
     steps:
