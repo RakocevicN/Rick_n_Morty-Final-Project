@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c30f7566-7785-4fbb-89bf-364de67c9271" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Rick_n_Morty-Final-Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github/workflows/run-tests.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.bash_history" beforeDir="false" afterPath="$PROJECT_DIR$/../.bash_history" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/../.bashrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.cache/pip/http/0/7/5/9/3/07593bb905dded4b84aacb1d96c1e64704669d6bab658dcaeab79c36" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/0/7/5/9/3/07593bb905dded4b84aacb1d96c1e64704669d6bab658dcaeab79c36" afterDir="false" />
@@ -31,6 +22,10 @@
       <change beforePath="$PROJECT_DIR$/../.cache/pip/http/e/a/c/6/1/eac61126daf80149d2a016f12a54eab5e3b5c1dbc77410ff1a97edc4" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/e/a/c/6/1/eac61126daf80149d2a016f12a54eab5e3b5c1dbc77410ff1a97edc4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.cache/pip/http/e/d/3/e/2/ed3e20cf611647f748f45ca6693201089cfcff960eed21f1375c1ce4" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/e/d/3/e/2/ed3e20cf611647f748f45ca6693201089cfcff960eed21f1375c1ce4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa.pub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" afterDir="false" />
@@ -64,7 +59,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "first__branch",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "//wsl.localhost/Ubuntu-22.04/root/Rick_n_Morty-Final-Project"
   }
 }]]></component>
