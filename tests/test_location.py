@@ -3,7 +3,7 @@ docstring  to add here
 """
 
 import pytest
-from main_apis import get_location_info
+from glavni_api.main_apis import get_location_info
 from asserts.location import assert_response_for_location
 from test_data.location import location_expected_data
 

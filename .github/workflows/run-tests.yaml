@@ -24,11 +24,6 @@ jobs:
       with:
         python-version: 3.12.1
 
-    - name: Create and activate virtual environment
-      run: |
-        python -m venv venv
-        source venv/bin/activate
-
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
 

@@ -3,7 +3,7 @@ Needs to be updated
 
 """
 
-from main_apis import get_all_locations
+from glavni_api.main_apis import get_all_locations
 
 locations_response = get_all_locations()
 
