@@ -1,12 +1,6 @@
 name: Tests
 
 on:
-  push:
-    branches:
-      - '*'
-  schedule:
-    - cron: '0 8 * * 1' # Schedule to run at 8 AM on Mondays
-    - cron: '0 8 * * 3' # Schedule to run at 8 AM on Wednesdays
   pull_request:
     branches:
       - '*'
@@ -28,7 +22,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: 3.10.12
+        python-version: 3.12.1
 
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
