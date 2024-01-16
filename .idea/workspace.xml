@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c30f7566-7785-4fbb-89bf-364de67c9271" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Rick_n_Morty-Final-Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/workflows/run-tests.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.bash_history" beforeDir="false" afterPath="$PROJECT_DIR$/../.bash_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/../.bashrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/0/7/5/9/3/07593bb905dded4b84aacb1d96c1e64704669d6bab658dcaeab79c36" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/0/7/5/9/3/07593bb905dded4b84aacb1d96c1e64704669d6bab658dcaeab79c36" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/0/9/f/8/9/09f89c3ce88983d8d9b404612eb53deb91ab35d4b1e2372a172624a4" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/0/9/f/8/9/09f89c3ce88983d8d9b404612eb53deb91ab35d4b1e2372a172624a4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/0/c/2/1/8/0c218d526767991766d9b365a4f3e4449ce3579fd8b0f96a707d5a52" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/0/c/2/1/8/0c218d526767991766d9b365a4f3e4449ce3579fd8b0f96a707d5a52" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/3/3/9/7/4/33974f84394d9a943f68359da08431dab4af9f86c33962982ea21b5f" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/3/3/9/7/4/33974f84394d9a943f68359da08431dab4af9f86c33962982ea21b5f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/3/f/a/0/7/3fa076dd590212835f7ed935a748af20db5667f5635cd3a2015151c7" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/3/f/a/0/7/3fa076dd590212835f7ed935a748af20db5667f5635cd3a2015151c7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/4/4/e/5/b/44e5b11a6caa92636d8ccfe658d420ba4ed8f67f7f4e835b214255aa" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/4/4/e/5/b/44e5b11a6caa92636d8ccfe658d420ba4ed8f67f7f4e835b214255aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/4/b/e/0/7/4be07d3ac353e38d2c9e3a257cad36ee2a758fc88b4cd5f0d479a5a9" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/4/b/e/0/7/4be07d3ac353e38d2c9e3a257cad36ee2a758fc88b4cd5f0d479a5a9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/5/b/d/8/9/5bd894eeb3dfe1c8aaee1daecdfb74bbb314293813a730238621f077" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/5/b/d/8/9/5bd894eeb3dfe1c8aaee1daecdfb74bbb314293813a730238621f077" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/8/b/2/4/2/8b24226e2da88df4abeee0d8ca6bce79b19ca2bcd5f94b543939c66c" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/8/b/2/4/2/8b24226e2da88df4abeee0d8ca6bce79b19ca2bcd5f94b543939c66c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/8/d/0/e/1/8d0e104919449355aedb55b5b546bb9fd53f0e1a8ca1b082109464e9" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/8/d/0/e/1/8d0e104919449355aedb55b5b546bb9fd53f0e1a8ca1b082109464e9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/c/8/4/6/0/c84608549463ae90303a0f39c4b1e01a1717f15e0529931eee51391c" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/c/8/4/6/0/c84608549463ae90303a0f39c4b1e01a1717f15e0529931eee51391c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/c/b/5/2/a/cb52a2d86b549893dbebd3c41cb632b74900e6546f238508e1029e00" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/c/b/5/2/a/cb52a2d86b549893dbebd3c41cb632b74900e6546f238508e1029e00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/e/a/c/6/1/eac61126daf80149d2a016f12a54eab5e3b5c1dbc77410ff1a97edc4" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/e/a/c/6/1/eac61126daf80149d2a016f12a54eab5e3b5c1dbc77410ff1a97edc4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.cache/pip/http/e/d/3/e/2/ed3e20cf611647f748f45ca6693201089cfcff960eed21f1375c1ce4" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/e/d/3/e/2/ed3e20cf611647f748f45ca6693201089cfcff960eed21f1375c1ce4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rickNmorty/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ay1y32gqQn2iDwOl3pSDPiFHje" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "first__branch",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu-22.04/root/Rick_n_Morty-Final-Project"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Rick_n_Morty-Final-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c30f7566-7785-4fbb-89bf-364de67c9271" name="Changes" comment="" />
+      <created>1705276255857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705276255857</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
