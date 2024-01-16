@@ -3,7 +3,7 @@ docstring  to add here
 """
 
 import pytest
-from api.api_id import get_character_by_id
+from main_apis import get_character_by_id
 from asserts.character import assert_response_for_character
 from test_data.id import id_expected_data
 

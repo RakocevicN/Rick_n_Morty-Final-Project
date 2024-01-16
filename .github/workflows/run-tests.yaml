@@ -33,5 +33,5 @@ jobs:
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
 
-    - name: Run tests for R&M ${matrix.test_type^}
+    - name: Run tests for R&M
       run: pytest tests/test_${{ matrix.test_type }}.py
