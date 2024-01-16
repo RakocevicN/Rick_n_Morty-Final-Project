@@ -1,22 +1,36 @@
-import requests
+import deepdiff
 
 
 def assert_response_for_character(response, expected_data):
-    # Check if the response is a dictionary
-    if isinstance(response, dict):
-        response_data = response
-    else:
+    """
+    This function checks two conditions:
+    1. It ensures that the provided response is a dictionary.
+    2. It compares the response data with expected data from test_data -> id.py
 
-        if not isinstance(response, requests.Response):
-            raise AssertionError("Invalid response type -expected an HTTP response object.")
+    AssertionError will be present if any of the verification conditions fail.
 
-        assert response.status_code == 200, f"Expected status code 200, but failed with {response.status_code}"
+    """
+    if not isinstance(response, dict):
+        raise AssertionError("Invalid response type, expected type dictionary.")
+    differences = deepdiff.DeepDiff(response, expected_data)
+    if differences:
+        assert False, f"Response data does not match expected data, this are the differences: {differences}"
 
-        if isinstance(response.json(), dict):
-            response_data = response.json()
-        else:
-            response_data = response.json()[0]
 
-    # Check other fields in the response
-    for key, value in expected_data.items():
-        assert response_data[key] == value, f"Expected {key}: {value}, but got {response_data[key]}"
+def assert_response_for_error(response, expected_error_message):
+    """
+    This function checks two conditions:
+    1. It ensures that the provided response is a dictionary and contains an 'error' field.
+    2. It compares the response error message with expected error message from test_data.
+
+    AssertionError will be present if any of the verification conditions fail.
+
+    """
+    if not isinstance(response, dict):
+        raise AssertionError("Invalid response type, expected type dictionary.")
+    if "error" not in response:
+        raise AssertionError("Expected error field in the response is missing.")
+    error_message = response["error"]
+    differences = deepdiff.DeepDiff(error_message, expected_error_message)
+    if differences:
+        assert False, f"Error message does not match expected test_data message, please see: {differences}"
