@@ -6,7 +6,14 @@ on:
       - '*'
 
 jobs:
-  test_episode:
+  run_tests:
+    strategy:
+      matrix:
+        test_type:
+          - episode
+          - id
+          - location
+
     runs-on: ubuntu-latest
 
     steps:
@@ -18,44 +25,13 @@ jobs:
       with:
         python-version: 3.10.12
 
-    - name: Install dependencies from requirements.txt
-      run: pip install -r requirements.txt
-
-    - name: Run tests for R&M Episode
-      run: pytest tests/test_episode.py
-
-  test_id:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v1
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.10.12
+    - name: Create and activate virtual environment
+      run: |
+        python -m venv venv
+        source venv/bin/activate
 
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
 
-    - name: Run tests for R&M ID
-      run: pytest tests/test_id.py
-
-  test_location:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v1
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.10.12
-
-    - name: Install dependencies from requirements.txt
-      run: pip install -r requirements.txt
-
-    - name: Run tests for R&M Location
-      run: pytest tests/test_location.py
+    - name: Run tests for R&M ${matrix.test_type^}
+      run: pytest tests/test_${{ matrix.test_type }}.py
