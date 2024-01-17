@@ -4,31 +4,48 @@ This data providers contains test data for character-related tests that require 
 It is a dictionary where each key represents a character ID
 """
 
+
+def get_test_case_data(test_case_name, data_dict):
+    character_id = data_dict[test_case_name]['id']
+    character_data = data_dict[test_case_name]['data']
+    return character_id, character_data
+
+
+# Positive test cases
 id_positive_expected_data = {
-    1: {
+    'RickSanchez': {
         'id': 1,
-        'name': 'Rick Sanchez',
-        'species': 'Human',
-        'status': 'Alive',
-        'type': '',
-        'gender': 'Male'
+        'data': {
+            'id': 1,
+            'name': 'Rick Sanchez',
+            'species': 'Human',
+            'status': 'Alive',
+            'type': '',
+            'gender': 'Male'
+        }
     },
-    2: {
+    'MortySmith': {
         'id': 2,
-        'name': 'Morty Smith',
-        'species': 'Human',
-        'status': 'Alive',
-        'type': '',
-        'gender': 'Male'
+        'data': {
+            'id': 2,
+            'name': 'Morty Smith',
+            'species': 'Human',
+            'status': 'Alive',
+            'type': '',
+            'gender': 'Male'
+        }
     },
-    3: {
+    'SummerSmith': {
         'id': 3,
-        'name': 'Summer Smith',
-        'species': 'Human',
-        'status': 'Alive',
-        'type': '',
-        'gender': 'Female'
-    },
+        'data': {
+            'id': 3,
+            'name': 'Summer Smith',
+            'species': 'Human',
+            'status': 'Alive',
+            'type': '',
+            'gender': 'Female'
+        }
+    }
 }
 
 
