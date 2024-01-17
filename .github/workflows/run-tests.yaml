@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       test_type:
-        description: 'Select the test type that you want to run'
+        description: 'Select the type of test to run'
         required: false
         type: choice
         options:
@@ -18,6 +18,12 @@ on:
 jobs:
   run_tests:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test_type:
+          - episode
+          - id
+          - location
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
@@ -30,13 +36,10 @@ jobs:
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
 
+    - name: Run test
+      if: github.event_name == 'pull_request'
+      run: pytest tests/test_${{ matrix.test_type }}.py
+
     - name: Run selected test
       if: github.event_name == 'workflow_dispatch'
       run: pytest tests/test_${{ github.event.inputs.test_type }}.py
-
-    - name: Run Regression tests
-      if: github.event_name == 'pull_request'
-      run: |
-        pytest tests/test_episode.py
-        pytest tests/test_id.py
-        pytest tests/test_location.py
