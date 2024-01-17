@@ -4,26 +4,17 @@ on:
   pull_request:
     branches:
       - '*'
-  workflow_dispatch:
-    inputs:
-      test_type:
-        description: 'Select the type of test to run'
-        required: false
-        type: choice
-        options:
-          - episode
-          - id
-          - location
 
 jobs:
   run_tests:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
         test_type:
           - episode
           - id
           - location
+    runs-on: ubuntu-latest
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
@@ -31,10 +22,13 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.12.1'
+        python-version: 3.12.1
 
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
+
+    - name: Run tests for R&M
+      run: pytest tests/test_${{ matrix.test_type }}.py
 
     - name: Run selected test
       if: github.event_name == 'workflow_dispatch'
@@ -46,4 +40,3 @@ jobs:
         elif [ "${{ github.event.inputs.test_type }}" == "location" ]; then
           pytest tests/test_location.py
         fi
-
