@@ -1,11 +1,12 @@
-# Test data providers for character ID tests.
-# This data provider contains test data for character-related tests that require character IDs.
-# It is a dictionary where each key represents a character ID.
+"""
+Test data providers for character ID tests.
+This data providers contains test data for character-related tests that require character IDs.
+It is a dictionary where each key represents a character ID
+"""
 
-
-# Positive test cases
-positive_id_expected_data = {
+id_positive_expected_data = {
     1: {
+        'id': 1,
         'name': 'Rick Sanchez',
         'species': 'Human',
         'status': 'Alive',
@@ -13,6 +14,7 @@ positive_id_expected_data = {
         'gender': 'Male'
     },
     2: {
+        'id': 2,
         'name': 'Morty Smith',
         'species': 'Human',
         'status': 'Alive',
@@ -20,13 +22,13 @@ positive_id_expected_data = {
         'gender': 'Male'
     },
     3: {
+        'id': 3,
         'name': 'Summer Smith',
         'species': 'Human',
         'status': 'Alive',
         'type': '',
         'gender': 'Female'
     },
-
 }
 
 
