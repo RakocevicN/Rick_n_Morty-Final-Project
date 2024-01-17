@@ -7,9 +7,13 @@ on:
   workflow_dispatch:
     inputs:
       test_type:
-        description: 'Type of test to run (episode, id, location)'
-        required: true
-        default: 'episode'
+        description: 'Select the type of test to run'
+        required: false
+        type: choice
+        options:
+          - episode
+          - id
+          - location
 
 jobs:
   run_tests:
@@ -20,8 +24,6 @@ jobs:
           - episode
           - id
           - location
-      fail-fast: false # optional: continue running other jobs if one fails
-
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
@@ -34,5 +36,10 @@ jobs:
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
 
-    - name: Run tests for R&M
+    - name: Run test
+      if: github.event_name == 'pull_request'
       run: pytest tests/test_${{ matrix.test_type }}.py
+
+    - name: Run selected test
+      if: github.event_name == 'workflow_dispatch'
+      run: pytest tests/test_${{ github.event.inputs.test_type }}.py
