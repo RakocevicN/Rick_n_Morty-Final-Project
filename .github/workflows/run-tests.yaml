@@ -41,5 +41,5 @@ jobs:
       run: pytest tests/test_${{ matrix.test_type }}.py
 
     - name: Run selected test
-      if: github.event_name == 'workflow_dispatch'
-      run: pytest tests/test_${{ github.event.inputs.test_type }}.py
+      if: github.event_name == 'workflow_dispatch' && github.event.inputs.test_type == matrix.test_type
+      run: pytest tests/test_${{ matrix.test_type }}.py
