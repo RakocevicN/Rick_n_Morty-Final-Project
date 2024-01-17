@@ -54,14 +54,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_episode.TestRMEpisode.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_episode.TestRMEpisode.test_get_episode.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_episode.TestRMepisode.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_episode.TestRMepisode.test_get_episode.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_id.TestRMAid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_id.TestRMAid.test_get_characters_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_id.TestRMAid.test_invalid_character_id.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_location.TestRMALocation.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_location.TestRMALocation.test_get_location_info.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_episode.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_id.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.episode.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_apis.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;second__branch&quot;,
@@ -78,7 +84,7 @@
       <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\test_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_episode.TestRMepisode.test_get_episode">
+  <component name="RunManager" selected="Python tests.Python tests for test_location.TestRMALocation.test_get_location_info">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
@@ -101,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_episode.TestRMepisode" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_episode.TestRMEpisode" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,22 +118,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_episode.TestRMepisode&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_episode.TestRMepisode.test_get_episode" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Rick_n_Morty-Final-Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_episode.TestRMepisode.test_get_episode&quot;" />
+      <option name="_new_target" value="&quot;test_episode.TestRMEpisode&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -146,7 +137,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_location.TestRMALocation.test_get_location_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_id.TestRMAid.test_get_characters_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,11 +148,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_location.TestRMALocation.test_get_location_info&quot;" />
+      <option name="_new_target" value="&quot;test_id.TestRMAid.test_get_characters_by_id&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_episode.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_id.TestRMAid.test_invalid_character_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,17 +163,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_episode.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_id.TestRMAid.test_invalid_character_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_location.TestRMALocation.test_get_location_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Rick_n_Morty-Final-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_location.TestRMALocation.test_get_location_info&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_episode.TestRMepisode.test_get_episode" />
-        <item itemvalue="Python tests.Python tests for test_episode.TestRMepisode" />
+        <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_get_location_info" />
+        <item itemvalue="Python tests.Python tests for test_episode.TestRMEpisode" />
         <item itemvalue="Python tests.Python tests for test_id.TestRMAid" />
-        <item itemvalue="Python tests.Python tests in test_episode.py" />
-        <item itemvalue="Python tests.Python tests for tests.test_location.TestRMALocation.test_get_location_info" />
+        <item itemvalue="Python tests.Python tests for test_id.TestRMAid.test_invalid_character_id" />
+        <item itemvalue="Python tests.Python tests for test_id.TestRMAid.test_get_characters_by_id" />
       </list>
     </recent_temporary>
   </component>
