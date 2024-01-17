@@ -1,5 +1,9 @@
 """"
-Docu to bi improved
+Main_apis includes functions to retrieve episode, character, location, and location information.
+Usage:
+    - Use 'get_episode' to retrieve episode details by providing an episode ID.
+    - Use 'get_character_by_id' to retrieve character details by providing a character ID.
+    - Use 'get_all_locations' to retrieve information about all locations.
 """
 import requests
 from config import main_api

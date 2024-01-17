@@ -10,8 +10,6 @@ def assert_response_for_character(response, expected_data):
     AssertionError will be present if any of the verification conditions fail.
 
     """
-    if not isinstance(response, dict):
-        raise AssertionError("Invalid response type, expected type dictionary.")
 
     excluded = [
         "root['created']",
@@ -22,7 +20,6 @@ def assert_response_for_character(response, expected_data):
         "root['url']",
     ]
 
-    # Compare the response data with expected data, excluding specified paths
     differences = deepdiff.DeepDiff(response, expected_data, exclude_paths=excluded)
 
     if differences:
@@ -45,4 +42,4 @@ def assert_response_for_negative_tests(response, expected_error_message):
     error_message = response["error"]
     differences = deepdiff.DeepDiff(error_message, expected_error_message)
     if differences:
-        assert False, f"Error message does not match expected test_data message, please see: differences"
+        assert False, f"Error message does not match expected test_data message, please see: {differences}"
