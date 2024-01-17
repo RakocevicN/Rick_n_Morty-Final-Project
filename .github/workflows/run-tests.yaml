@@ -20,6 +20,7 @@ jobs:
           - episode
           - id
           - location
+      fail-fast: false # optional: continue running other jobs if one fails
 
     steps:
     - name: Checkout Repository
@@ -34,4 +35,4 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run tests for R&M
-      run: pytest tests/tests_${{ matrix.test_type }}.py
+      run: pytest tests/test_${{ matrix.test_type }}.py
