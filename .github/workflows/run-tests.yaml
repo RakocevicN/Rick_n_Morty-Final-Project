@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       test_type:
-        description: 'Select the type of test to run'
+        description: 'Select the test type that you want to run'
         required: false
         type: choice
         options:
@@ -30,11 +30,11 @@ jobs:
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
 
-    - name: Run selected test (manual trigger)
+    - name: Run selected test
       if: github.event_name == 'workflow_dispatch'
       run: pytest tests/test_${{ github.event.inputs.test_type }}.py
 
-    - name: Run all tests (pull request trigger)
+    - name: Run Regression tests
       if: github.event_name == 'pull_request'
       run: |
         pytest tests/test_episode.py
