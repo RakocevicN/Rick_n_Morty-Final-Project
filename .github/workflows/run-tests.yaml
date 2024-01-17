@@ -36,10 +36,14 @@ jobs:
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
 
-    - name: Run test
-      if: github.event_name == 'pull_request'
-      run: pytest tests/test_${{ matrix.test_type }}.py
-
     - name: Run selected test
-      if: github.event_name == 'workflow_dispatch' && github.event.inputs.test_type == matrix.test_type
-      run: pytest tests/test_${{ matrix.test_type }}.py
+      if: github.event_name == 'workflow_dispatch'
+      run: |
+        if [ "${{ github.event.inputs.test_type }}" == "episode" ]; then
+          pytest tests/test_episode.py
+        elif [ "${{ github.event.inputs.test_type }}" == "id" ]; then
+          pytest tests/test_id.py
+        elif [ "${{ github.event.inputs.test_type }}" == "location" ]; then
+          pytest tests/test_location.py
+        fi
+
