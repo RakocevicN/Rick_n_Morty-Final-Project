@@ -6,7 +6,8 @@ Usage:
     - Use 'get_all_locations' to retrieve information about all locations.
 """
 import requests
-from config import main_api
+# Documentation can be found here: https://rickandmortyapi.com/documentation/#introduction
+main_api = "https://rickandmortyapi.com/api"
 
 
 def get_episode(episode_id):
