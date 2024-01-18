@@ -6,14 +6,10 @@ on:
       - '*'
   workflow_dispatch:
     inputs:
-      test_type:
-        description: 'Select test type'
+      run_all_tests:
+        description: 'Run all tests'
         required: true
-        type: string
-        options:
-          - episode
-          - id
-          - location
+        type: boolean
 
 jobs:
   run_tests:
@@ -34,16 +30,16 @@ jobs:
 
     - name: Run tests based on input
       run: |
-        if [ "${{ github.event_name }}" == "pull_request" ]; then
-          
+        if [ "${{ github.event.inputs.run_all_tests }}" == "true" ]; then
+          # Automatically run all tests on pull requests
           pytest tests/
-        elif [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-          
-          if [ "${{ inputs.test_type }}" == "location" ]; then
+        else
+          # Manually triggered workflow, run the selected test based on the test_type input
+          if [ "${{ github.event.inputs.test_type }}" == "location" ]; then
             pytest tests/test_location.py
-          elif [ "${{ inputs.test_type }}" == "episode" ]; then
+          elif [ "${{ github.event.inputs.test_type }}" == "episode" ]; then
             pytest tests/test_episode.py
-          elif [ "${{ inputs.test_type }}" == "id" ]; then
+          elif [ "${{ github.event.inputs.test_type }}" == "id" ]; then
             pytest tests/test_id.py
           fi
         fi
