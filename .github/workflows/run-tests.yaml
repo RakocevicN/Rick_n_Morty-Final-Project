@@ -11,10 +11,10 @@ on:
         required: false
         default: '--all_tests'
         options:
-          - '--all_tests'
-          - '--test_episode'
-          - '--test_id'
-          - '--test_location'
+          - 'all_tests'
+          - 'test_episode'
+          - 'test_id'
+          - 'test_location'
 
 jobs:
   run_tests:
