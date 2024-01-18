@@ -3,14 +3,14 @@ name: Run Tests Manual Workflow
 on:
   workflow_dispatch:
     inputs:
-      test_type:
-        description: 'Select test type'
-        required: false
-        default: 'id'
+      stage:
+        description: 'Select test type' [test_episode, test_id, test_location]
+        required: true
+        default: 'test_episode'
         options:
-          - episode
-          - id
-          - location
+          - test_episode
+          - test_id
+          - test_location
 
 jobs:
   run_tests:
@@ -22,14 +22,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.12.1
+          python-version: '3.12.1'
 
       - name: Install dependencies from requirements.txt
         run: pip install -r requirements.txt
 
-      - name: Determine Test Type
-        id: set_test_type
-        run: echo "TEST_TYPE=${{ inputs.test_type || 'episode' }}" >> $GITHUB_ENV
-
       - name: Run selected test
-        run: pytest tests/test_${{ env.TEST_TYPE }}.py
+        run: pytest tests/${{ github.event.inputs.stage }}.py
