@@ -1,6 +1,4 @@
-name: Run Tests
-
-
+name: Run Tests all
 
 on:
   pull_request:
@@ -9,10 +7,13 @@ on:
 
 jobs:
   run_tests:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
-        test_type: ['test_episode', 'test_id', 'test_location']
+        test_type:
+          - episode
+          - id
+          - location
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
@@ -24,7 +25,8 @@ jobs:
         python-version: 3.12.1
 
     - name: Install dependencies from requirements.txt
-      run: pip install -r requirements.txt
+      run: |
+        pip install -r requirements.txt
 
     - name: Run tests
-      run: python3 tests/${{ matrix.test_type }}.py
+      run: pytest tests/test_${{ matrix.test_type }}.py
