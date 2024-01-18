@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa.pub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/run-tests-manualy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/run-tests-manualy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/setup-workflow-inputs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/setup-workflow-inputs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" afterDir="false" />
