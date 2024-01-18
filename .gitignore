@@ -2,7 +2,7 @@
 .idea/misc.xml
 .idea/rickNmorty.iml
 ../.bash_history
-
+.idea/workspace.xml
 # Exclude specific directories
 .cache/
 .gnupg/
@@ -161,10 +161,38 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-../.idea/workspace.xml
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Ignore virtual environment files and directories
+myenv/
+myenv/bin/Activate.ps1
+myenv/bin/activate
+myenv/bin/activate.csh
+myenv/bin/activate.fish
+myenv/bin/deep
+myenv/bin/epylint
+myenv/bin/get_gprof
+myenv/bin/get_objgraph
+myenv/bin/isort
+myenv/bin/isort-identify-imports
+myenv/bin/normalizer
+myenv/bin/pip
+myenv/bin/pip3
+myenv/bin/pip3.10
+myenv/bin/py.test
+myenv/bin/pylint
+myenv/bin/pylint-config
+myenv/bin/pyreverse
+myenv/bin/pytest
+myenv/bin/python
+myenv/bin/python3
+myenv/bin/python3.10
+myenv/bin/symilar
+myenv/bin/undill
+myenv/lib64
+myenv/pyvenv.cfg
