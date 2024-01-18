@@ -3,7 +3,7 @@ Needs to be updated
 
 """
 
-from apis.main_apis import get_all_locations
+from apis.neki_direktorijum.main_apis import get_all_locations
 
 locations_response = get_all_locations()
 
