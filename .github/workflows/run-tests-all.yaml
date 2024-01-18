@@ -1,0 +1,32 @@
+name: Run Tests all
+
+on:
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  run_tests:
+    strategy:
+      matrix:
+        test_type:
+          - episode
+          - id
+          - location
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.12.1
+
+    - name: Install dependencies from requirements.txt
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run tests
+      run: pytest tests/test_${{ matrix.test_type }}.py
