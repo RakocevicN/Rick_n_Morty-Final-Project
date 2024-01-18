@@ -4,6 +4,16 @@ on:
   pull_request:
     branches:
       - '*'
+  workflow_dispatch:
+    inputs:
+      test_type:
+        description: 'Select test type'
+        required: true
+        type: string
+        options:
+          - episode
+          - id
+          - location
 
 jobs:
   run_tests:
