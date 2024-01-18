@@ -1,18 +1,23 @@
-name: Tests
+name: Run Tests
 
 on:
   pull_request:
     branches:
       - '*'
+  workflow_dispatch:
+    inputs:
+      test_type:
+        description: 'Select a test to run'
+        required: false
+        default: '--all_tests'
+        options:
+          - 'all_tests'
+          - 'test_episode'
+          - 'test_id'
+          - 'test_location'
 
 jobs:
   run_tests:
-    strategy:
-      matrix:
-        test_type:
-          - episode
-          - id
-          - location
     runs-on: ubuntu-latest
 
     steps:
@@ -27,16 +32,5 @@ jobs:
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
 
-    - name: Run tests for R&M
-      run: pytest tests/test_${{ matrix.test_type }}.py
-
-    - name: Run selected test
-      if: github.event_name == 'workflow_dispatch'
-      run: |
-        if [ "${{ github.event.inputs.test_type }}" == "episode" ]; then
-          pytest tests/test_episode.py
-        elif [ "${{ github.event.inputs.test_type }}" == "id" ]; then
-          pytest tests/test_id.py
-        elif [ "${{ github.event.inputs.test_type }}" == "location" ]; then
-          pytest tests/test_location.py
-        fi
+    - name: Run tests
+      run: python3 test_execution.py --${{ github.event.inputs.test_type }}
