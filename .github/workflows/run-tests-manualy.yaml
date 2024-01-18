@@ -5,7 +5,8 @@ on:
     inputs:
       test_type:
         description: 'Select test type'
-        required: true
+        required: false
+        default: 'id'
         options:
           - episode
           - id
@@ -24,15 +25,11 @@ jobs:
           python-version: 3.12.1
 
       - name: Install dependencies from requirements.txt
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
+
+      - name: Determine Test Type
+        id: set_test_type
+        run: echo "TEST_TYPE=${{ inputs.test_type || 'episode' }}" >> $GITHUB_ENV
 
       - name: Run selected test
-        run: |
-          if [ "${{ inputs.test_type }}" == "episode" ]; then
-            pytest tests/test_episode.py
-          elif [ "${{ inputs.test_type }}" == "id" ]; then
-            pytest tests/test_id.py
-          elif [ "${{ inputs.test_type }}" == "location" ]; then
-            pytest tests/test_location.py
-          fi
+        run: pytest tests/test_${{ env.TEST_TYPE }}.py
