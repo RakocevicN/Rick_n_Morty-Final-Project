@@ -3,10 +3,10 @@ name: Run Tests Manual Workflow
 on:
   workflow_dispatch:
     inputs:
-      stage:
-        description: 'Select test type' [test_episode, test_id, test_location]
-        required: true
-        default: 'test_episode'
+      tests:
+        type: choice
+        description: 'Select test type: test_episode, test_id, test_location'
+        default: test_episode
         options:
           - test_episode
           - test_id
@@ -28,4 +28,4 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run selected test
-        run: pytest tests/${{ github.event.inputs.stage }}.py
+        run: pytest tests/${{ github.event.inputs.tests }}.py
