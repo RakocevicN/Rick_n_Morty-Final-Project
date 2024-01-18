@@ -8,8 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c30f7566-7785-4fbb-89bf-364de67c9271" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/run-tests-all.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/run-tests-manualy.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.bash_history" beforeDir="false" afterPath="$PROJECT_DIR$/../.bash_history" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/../.bashrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.cache/pip/http/0/7/5/9/3/07593bb905dded4b84aacb1d96c1e64704669d6bab658dcaeab79c36" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/0/7/5/9/3/07593bb905dded4b84aacb1d96c1e64704669d6bab658dcaeab79c36" afterDir="false" />
@@ -29,7 +27,8 @@
       <change beforePath="$PROJECT_DIR$/../.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa.pub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/run-tests.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/run-tests-manualy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/run-tests-manualy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" afterDir="false" />
