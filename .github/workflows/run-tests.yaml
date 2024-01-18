@@ -1,19 +1,18 @@
 name: Run Tests
 
+
+
 on:
   pull_request:
     branches:
       - '*'
-  workflow_dispatch:
-    inputs:
-      run_all_tests:
-        description: 'Run all tests'
-        required: true
-        type: boolean
 
 jobs:
   run_tests:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test_type: ['test_episode', 'test_id', 'test_location']
 
     steps:
     - name: Checkout Repository
@@ -25,21 +24,7 @@ jobs:
         python-version: 3.12.1
 
     - name: Install dependencies from requirements.txt
-      run: |
-        pip install -r requirements.txt
+      run: pip install -r requirements.txt
 
-    - name: Run tests based on input
-      run: |
-        if [ "${{ github.event.inputs.run_all_tests }}" == "true" ]; then
-          # Automatically run all tests on pull requests
-          pytest tests/
-        else
-          # Manually triggered workflow, run the selected test based on the test_type input
-          if [ "${{ github.event.inputs.test_type }}" == "location" ]; then
-            pytest tests/test_location.py
-          elif [ "${{ github.event.inputs.test_type }}" == "episode" ]; then
-            pytest tests/test_episode.py
-          elif [ "${{ github.event.inputs.test_type }}" == "id" ]; then
-            pytest tests/test_id.py
-          fi
-        fi
+    - name: Run tests
+      run: python3 tests/${{ matrix.test_type }}.py
