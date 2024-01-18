@@ -6,15 +6,10 @@ on:
       test_type:
         description: 'Select test type'
         required: true
-        options:
-          - test_location
-          - test_episode
-          - test_id
 
 jobs:
-  run_tests:
+  setup_and_run_tests:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
@@ -28,12 +23,18 @@ jobs:
       run: |
         pip install -r requirements.txt
 
+    - name: Setup Workflow Inputs
+      id: setup_inputs
+      uses: ./.github/workflows
+      with:
+        workflow-file: setup-workflow-inputs.yml
+
     - name: Run selected test
       run: |
-       if [ "${{ inputs.test_type }}" == "test_location" ]; then
+       if [ "${{ inputs.test_type }}" == "location" ]; then
         pytest tests/test_location.py
-       elif [ "${{ inputs.test_type }}" == "test_episode" ]; then
+       elif [ "${{ inputs.test_type }}" == "episode" ]; then
         pytest tests/test_episode.py
-       elif [ "${{ inputs.test_type }}" == "test_id" ]; then
+       elif [ "${{ inputs.test_type }}" == "id" ]; then
         pytest tests/test_id.py
        fi
