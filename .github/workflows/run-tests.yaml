@@ -9,12 +9,12 @@ on:
       test_type:
         description: 'Select a test to run'
         required: false
-        default: 'all'
+        default: '--all_tests'
         options:
-          - 'all'
-          - 'episode'
-          - 'id'
-          - 'location'
+          - '--all_tests'
+          - '--test_episode'
+          - '--test_id'
+          - '--test_location'
 
 jobs:
   run_tests:
@@ -25,9 +25,9 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.x
+        python-version: 3.12.1
 
     - name: Install dependencies from requirements.txt
       run: pip install -r requirements.txt
