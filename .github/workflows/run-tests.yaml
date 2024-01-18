@@ -1,31 +1,25 @@
 name: Run Tests
 
+
+
 on:
   pull_request:
     branches:
       - '*'
-  workflow_dispatch:
-    inputs:
-      test_type:
-        description: 'Select a test to run'
-        required: false
-        default: '--all_tests'
-        options:
-          - 'all_tests'
-          - 'test_episode'
-          - 'test_id'
-          - 'test_location'
 
 jobs:
   run_tests:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test_type: ['test_episode', 'test_id', 'test_location']
 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
         python-version: 3.12.1
 
@@ -33,4 +27,4 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run tests
-      run: python3 test_execution.py --${{ github.event.inputs.test_type }}
+      run: python3 tests/${{ matrix.test_type }}.py

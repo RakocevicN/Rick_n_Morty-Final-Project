@@ -2,7 +2,7 @@
 docstring  to add here
 """
 import pytest
-from apis.main_apis import get_episode
+from api_file.main_apis import get_episode
 from asserts.episode import assert_response_for_episode
 from test_data.episode import episode_expected_data
 
