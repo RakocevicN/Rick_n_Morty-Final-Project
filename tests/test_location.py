@@ -17,5 +17,5 @@ class TestRMALocation:
     @pytest.mark.parametrize("test_case_name", location_expected_data.keys())
     def test_location_info(self, test_case_name):
         location_id, location_data = get_test_case_data(test_case_name, location_expected_data)
-        location_info = get_location_info(location_id)
-        assert_response_for_location(location_info, location_data)
+        location_response = get_location_info(location_id)
+        assert_response_for_location(location_response, location_data)

@@ -14,8 +14,8 @@ class TestRMAid:
     @pytest.mark.parametrize("test_case_name", id_positive_expected_data.keys())
     def test_id_info(self, test_case_name):
         character_id, character_data = get_test_case_data(test_case_name, id_positive_expected_data)
-        character_response = get_character_by_id(character_id)
-        assert_response_for_character(character_response, character_data)
+        id_response = get_character_by_id(character_id)
+        assert_response_for_character(id_response, character_data)
 
     @pytest.mark.parametrize("character_id, expected_error_message", negative_id_expected_data.items())
     def test_invalid_character_id(self, character_id, expected_error_message):
