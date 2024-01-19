@@ -1,7 +1,7 @@
 import deepdiff
 
 
-def assert_response_for_character(response, expected_data):
+def assert_response_id(response, expected_data):
     """
     This function checks two conditions:
     1. It ensures that the provided response is a dictionary.
@@ -26,7 +26,7 @@ def assert_response_for_character(response, expected_data):
         assert False, f"Response data does not match expected data, this are the differences: {differences}"
 
 
-def assert_response_for_negative_tests(response, expected_error_message):
+def assert_response_negative_tests(response, expected_error_message):
     """
     This function checks two conditions:
     1. It ensures that the provided response is a dictionary and contains an 'error' field.

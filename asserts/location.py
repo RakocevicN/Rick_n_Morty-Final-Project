@@ -1,7 +1,7 @@
 import deepdiff
 
 
-def assert_response_for_location(response, expected_data):
+def assert_response_location(response, expected_data):
     """
     This function checks if the response matches the expected data for location
     AssertionError will be present if the verification condition fails.
