@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c30f7566-7785-4fbb-89bf-364de67c9271" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/READM.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.bash_history" beforeDir="false" afterPath="$PROJECT_DIR$/../.bash_history" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/../.bashrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.cache/pip/http/0/7/5/9/3/07593bb905dded4b84aacb1d96c1e64704669d6bab658dcaeab79c36" beforeDir="false" afterPath="$PROJECT_DIR$/../.cache/pip/http/0/7/5/9/3/07593bb905dded4b84aacb1d96c1e64704669d6bab658dcaeab79c36" afterDir="false" />
@@ -27,6 +28,14 @@
       <change beforePath="$PROJECT_DIR$/../.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa.pub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/episode.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/episode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/id.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/location.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/location.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tests/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_episode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_episode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_location.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" afterDir="false" />
@@ -46,6 +55,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -58,31 +70,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_episode.TestRMEpisode.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_episode.TestRMEpisode.test_get_episode.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_episode.TestRMepisode.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_episode.TestRMepisode.test_get_episode.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_id.TestRMAid.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_id.TestRMAid.test_get_characters_by_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_id.TestRMAid.test_invalid_character_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_location.TestRMALocation.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_location.TestRMALocation.test_get_location_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_location.TestRMALocation.test_get_location_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_episode.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_id.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_location.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.episode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_apis.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;second__branch&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu-22.04/root/projects/GH-action-trening&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_episode.TestRMEpisode.executor": "Run",
+    "Python tests.Python tests for test_episode.TestRMEpisode.test_episode_info.executor": "Run",
+    "Python tests.Python tests for test_episode.TestRMEpisode.test_get_episode.executor": "Run",
+    "Python tests.Python tests for test_episode.TestRMepisode.executor": "Run",
+    "Python tests.Python tests for test_episode.TestRMepisode.test_get_episode.executor": "Run",
+    "Python tests.Python tests for test_id.TestRMAid.executor": "Run",
+    "Python tests.Python tests for test_id.TestRMAid.test_get_characters_by_id.executor": "Run",
+    "Python tests.Python tests for test_id.TestRMAid.test_invalid_character_id.executor": "Run",
+    "Python tests.Python tests for test_location.TestRMALocation.executor": "Run",
+    "Python tests.Python tests for test_location.TestRMALocation.test_get_location_info.executor": "Run",
+    "Python tests.Python tests for test_location.TestRMALocation.test_location_info.executor": "Run",
+    "Python tests.Python tests for tests.test_location.TestRMALocation.test_get_location_info.executor": "Run",
+    "Python tests.Python tests in test_episode.py.executor": "Run",
+    "Python tests.Python tests in test_id.py.executor": "Run",
+    "Python tests.Python tests in test_location.py.executor": "Run",
+    "Python.episode.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_apis.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "second__branch",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu-22.04/root/projects/GH-action-trening",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\api_file" />
@@ -92,7 +106,7 @@
       <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\glavni_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_episode.TestRMEpisode.test_get_episode">
+  <component name="RunManager" selected="Python tests.Python tests for test_id.TestRMAid">
     <configuration name="test_execution" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
@@ -115,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_episode.TestRMEpisode.test_get_episode" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_episode.TestRMEpisode.test_episode_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +140,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_episode.TestRMEpisode.test_get_episode&quot;" />
+      <option name="_new_target" value="&quot;test_episode.TestRMEpisode.test_episode_info&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -145,6 +159,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_id.TestRMAid.test_get_characters_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Rick_n_Morty-Final-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_id.TestRMAid.test_get_characters_by_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_location.TestRMALocation.test_get_location_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
@@ -160,22 +189,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_location.TestRMALocation.test_get_location_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Rick_n_Morty-Final-Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_location.TestRMALocation.test_get_location_info&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_location.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_location.TestRMALocation.test_location_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,17 +200,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_location.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_location.TestRMALocation.test_location_info&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_episode.TestRMEpisode.test_get_episode" />
-        <item itemvalue="Python tests.Python tests in test_location.py" />
-        <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_get_location_info" />
-        <item itemvalue="Python tests.Python tests for tests.test_location.TestRMALocation.test_get_location_info" />
         <item itemvalue="Python tests.Python tests for test_id.TestRMAid" />
+        <item itemvalue="Python tests.Python tests for test_episode.TestRMEpisode.test_episode_info" />
+        <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_location_info" />
+        <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_get_location_info" />
+        <item itemvalue="Python tests.Python tests for test_id.TestRMAid.test_get_characters_by_id" />
       </list>
     </recent_temporary>
   </component>

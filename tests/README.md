@@ -14,7 +14,7 @@ This project uses Python 3.10.12 at the moment, more about Python 3.10.12 [here]
    * source myenv/bin/activate
 
 4. Install requirementas:
-   * install -r requirements.txt
+   * pip install -r requirements.txt
   
 ## Overview of Tests
 This project includes a  set of tests to ensure the functionality and reliability of [Rick and Morty](https://rickandmortyapi.com/documentation). The tests are organized into three main categories, each targeting a specific aspect of the API:
