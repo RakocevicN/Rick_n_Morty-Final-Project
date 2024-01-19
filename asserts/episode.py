@@ -1,7 +1,7 @@
 import deepdiff
 
 
-def assert_response_for_episode(response, expected_data):
+def assert_response_episode(response, expected_data):
     # Exclude from comparison
     excluded = [
         "root['characters']",
