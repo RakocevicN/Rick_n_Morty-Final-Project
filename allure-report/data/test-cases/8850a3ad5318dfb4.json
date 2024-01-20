@@ -1,0 +1,87 @@
+{
+  "uid" : "8850a3ad5318dfb4",
+  "name" : "Test location Info",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "b6521419f284d01b0914285a11ef7ede",
+  "time" : {
+    "start" : 1705719277357,
+    "stop" : 1705719277549,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Anatomy Park'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce37ce110061c1d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718417826,
+        "stop" : 1705718417988,
+        "duration" : 162
+      }
+    }, {
+      "uid" : "cfbf630d8faabaa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717840763,
+        "stop" : 1705717840953,
+        "duration" : 190
+      }
+    }, {
+      "uid" : "2656660f33f9c180",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716929971,
+        "stop" : 1705716930136,
+        "duration" : 165
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8850a3ad5318dfb4.json",
+  "parameterValues" : [ "'Anatomy Park'" ]
+}

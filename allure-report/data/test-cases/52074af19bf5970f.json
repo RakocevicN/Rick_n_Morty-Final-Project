@@ -1,0 +1,61 @@
+{
+  "uid" : "52074af19bf5970f",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "0d90d6d6ac189410ec35ece24f59f5f2",
+  "time" : {
+    "start" : 1705717833047,
+    "stop" : 1705717833185,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "5356-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'M. Night Shaym-Aliens!'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52074af19bf5970f.json",
+  "parameterValues" : [ "'M. Night Shaym-Aliens!'" ]
+}

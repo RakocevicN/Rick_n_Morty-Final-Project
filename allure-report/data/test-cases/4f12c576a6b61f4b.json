@@ -1,0 +1,87 @@
+{
+  "uid" : "4f12c576a6b61f4b",
+  "name" : "Test ID Info",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "c0a55270249552d13551b86c78d5a5ff",
+  "time" : {
+    "start" : 1705719275851,
+    "stop" : 1705719276062,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'AntennaRick'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "273bd7f6e35f8e52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718416375,
+        "stop" : 1705718416517,
+        "duration" : 142
+      }
+    }, {
+      "uid" : "dedb462367d9c1fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717838948,
+        "stop" : 1705717839160,
+        "duration" : 212
+      }
+    }, {
+      "uid" : "77f367fe9b17ba4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716928555,
+        "stop" : 1705716928711,
+        "duration" : 156
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f12c576a6b61f4b.json",
+  "parameterValues" : [ "'AntennaRick'" ]
+}

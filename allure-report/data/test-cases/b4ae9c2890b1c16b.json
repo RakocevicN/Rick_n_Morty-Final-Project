@@ -1,0 +1,61 @@
+{
+  "uid" : "b4ae9c2890b1c16b",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "bf12c47875e1d9ffbf2dab381e6123cf",
+  "time" : {
+    "start" : 1705717835399,
+    "stop" : 1705717835580,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "5356-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Interdimensional Cable 2: Tempting Fate'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4ae9c2890b1c16b.json",
+  "parameterValues" : [ "'Interdimensional Cable 2: Tempting Fate'" ]
+}

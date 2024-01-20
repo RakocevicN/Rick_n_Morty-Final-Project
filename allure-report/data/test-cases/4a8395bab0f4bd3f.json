@@ -1,0 +1,61 @@
+{
+  "uid" : "4a8395bab0f4bd3f",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "cabaa1f78185324dbfe1dcbc3e80a476",
+  "time" : {
+    "start" : 1705718410580,
+    "stop" : 1705718410723,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "6577-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Anatomy Park'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a8395bab0f4bd3f.json",
+  "parameterValues" : [ "'Anatomy Park'" ]
+}

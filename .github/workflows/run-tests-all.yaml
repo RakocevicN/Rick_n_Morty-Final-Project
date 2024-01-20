@@ -1,4 +1,4 @@
-name: Run Tests
+name: Run Tests and Generate Allure Report
 
 on:
   pull_request:
@@ -15,8 +15,8 @@ on:
           - test_location
 
 jobs:
-  run_tests_on_pr:
-    if: ${{ github.event_name == 'pull_request' }}
+  run_tests_and_generate_report:
+    if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
     strategy:
       matrix:
         test_type:
@@ -38,6 +38,30 @@ jobs:
 
       - name: Run tests
         run: pytest tests/test_${{ matrix.test_type }}.py
+
+      - name: Load test report history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Build test report
+        uses: simple-elf/allure-report-action@v1.7
+        if: always()
+        with:
+          gh_pages: gh-pages
+          allure_results: allure-results
+          allure_history: allure-history
+
+      - name: Publish test report
+        uses: peaceiris/actions-gh-pages@v3
+        if: always()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
 
   run_tests_manually:
     if: ${{ github.event_name == 'workflow_dispatch' }}

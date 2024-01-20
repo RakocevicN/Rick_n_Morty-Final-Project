@@ -1,0 +1,61 @@
+{
+  "uid" : "ebd7fa91f577e823",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "e7e5f729e3b0a2519e9a209f2facc456",
+  "time" : {
+    "start" : 1705718410370,
+    "stop" : 1705718410577,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "6577-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Lawnmower Dog'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebd7fa91f577e823.json",
+  "parameterValues" : [ "'Lawnmower Dog'" ]
+}

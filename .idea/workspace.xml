@@ -27,8 +27,13 @@
       <change beforePath="$PROJECT_DIR$/../.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa.pub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/run-tests-all.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/run-tests-all.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_episode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_episode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_location.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" afterDir="false" />
@@ -86,7 +91,7 @@
     "Python.main_apis.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "second__branch",
+    "git-widget-placeholder": "allure__branch",
     "last_opened_file_path": "//wsl.localhost/Ubuntu-22.04/root/projects/GH-action-trening",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
@@ -100,7 +105,7 @@
       <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\glavni_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_location.TestRMALocation.test_location_info">
+  <component name="RunManager" selected="Python tests.Python tests for test_episode.TestRMEpisode.test_episode_info">
     <configuration name="test_execution" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
@@ -200,9 +205,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_episode.TestRMEpisode.test_episode_info" />
         <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_location_info" />
         <item itemvalue="Python tests.Python tests for test_id.TestRMAid" />
-        <item itemvalue="Python tests.Python tests for test_episode.TestRMEpisode.test_episode_info" />
         <item itemvalue="Python tests.Python tests for test_id.TestRMAid.test_id_info" />
         <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_get_location_info" />
       </list>

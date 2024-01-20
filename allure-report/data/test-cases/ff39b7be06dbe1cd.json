@@ -1,0 +1,87 @@
+{
+  "uid" : "ff39b7be06dbe1cd",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "d6c8e21af31540ba6e1c15b6233941cc",
+  "time" : {
+    "start" : 1705719272431,
+    "stop" : 1705719272608,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Look Who's Purging Now'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c66fa119be7ecdeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718413354,
+        "stop" : 1705718413496,
+        "duration" : 142
+      }
+    }, {
+      "uid" : "a92765c1df488890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717835582,
+        "stop" : 1705717835725,
+        "duration" : 143
+      }
+    }, {
+      "uid" : "3d997d7306414d33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716925493,
+        "stop" : 1705716925635,
+        "duration" : 142
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff39b7be06dbe1cd.json",
+  "parameterValues" : [ "'Look Who's Purging Now'" ]
+}

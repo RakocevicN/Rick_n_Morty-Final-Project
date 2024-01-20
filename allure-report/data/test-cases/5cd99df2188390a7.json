@@ -1,0 +1,87 @@
+{
+  "uid" : "5cd99df2188390a7",
+  "name" : "Test ID Info",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "ee3e73cccbd8ad7301fe4d25ce3c5835",
+  "time" : {
+    "start" : 1705719272915,
+    "stop" : 1705719273050,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'SummerSmith'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "39eb8780372fdb7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718413817,
+        "stop" : 1705718413973,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "dab3bff320732ab1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717836110,
+        "stop" : 1705717836255,
+        "duration" : 145
+      }
+    }, {
+      "uid" : "4c424b0182ce4c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716926009,
+        "stop" : 1705716926150,
+        "duration" : 141
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cd99df2188390a7.json",
+  "parameterValues" : [ "'SummerSmith'" ]
+}

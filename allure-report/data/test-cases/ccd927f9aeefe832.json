@@ -1,0 +1,87 @@
+{
+  "uid" : "ccd927f9aeefe832",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "84364b638f26c9cb803e04c283a86197",
+  "time" : {
+    "start" : 1705719270291,
+    "stop" : 1705719270430,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Raising Gazorpazorp'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1e1a4985c6c2a47e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718411206,
+        "stop" : 1705718411346,
+        "duration" : 140
+      }
+    }, {
+      "uid" : "88bb69ef09f76533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717833506,
+        "stop" : 1705717833646,
+        "duration" : 140
+      }
+    }, {
+      "uid" : "8f047ee5f89af8c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716923267,
+        "stop" : 1705716923404,
+        "duration" : 137
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ccd927f9aeefe832.json",
+  "parameterValues" : [ "'Raising Gazorpazorp'" ]
+}

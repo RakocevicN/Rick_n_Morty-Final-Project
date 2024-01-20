@@ -1,0 +1,87 @@
+{
+  "uid" : "569b00e0a4f603a",
+  "name" : "Test ID Info",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "314604014b2a424073db5b858a720af8",
+  "time" : {
+    "start" : 1705719273543,
+    "stop" : 1705719273681,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'AbadangoClusterPrincess'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ae44addcaa2363d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718414260,
+        "stop" : 1705718414399,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "9270c263d7406ddb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717836557,
+        "stop" : 1705717836695,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "e16839a4e4eaa9ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716926515,
+        "stop" : 1705716926650,
+        "duration" : 135
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "569b00e0a4f603a.json",
+  "parameterValues" : [ "'AbadangoClusterPrincess'" ]
+}

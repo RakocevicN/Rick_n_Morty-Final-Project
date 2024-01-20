@@ -1,0 +1,87 @@
+{
+  "uid" : "d8c792dcb73b738e",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "bf12c47875e1d9ffbf2dab381e6123cf",
+  "time" : {
+    "start" : 1705719272287,
+    "stop" : 1705719272427,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Interdimensional Cable 2: Tempting Fate'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2116198027481a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718413210,
+        "stop" : 1705718413351,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "b4ae9c2890b1c16b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717835399,
+        "stop" : 1705717835580,
+        "duration" : 181
+      }
+    }, {
+      "uid" : "3cfe5a94b860ffa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716925352,
+        "stop" : 1705716925491,
+        "duration" : 139
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8c792dcb73b738e.json",
+  "parameterValues" : [ "'Interdimensional Cable 2: Tempting Fate'" ]
+}

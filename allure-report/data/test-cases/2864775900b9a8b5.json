@@ -1,0 +1,87 @@
+{
+  "uid" : "2864775900b9a8b5",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "77caa83d3bc43529a78be1e9b8c937de",
+  "time" : {
+    "start" : 1705719270841,
+    "stop" : 1705719270977,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Ricksy Business'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "83da7115d29596d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718411866,
+        "stop" : 1705718412012,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "b4fc3a1263d9e77d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717834263,
+        "stop" : 1705717834402,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "feec6a1d288fae16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716924008,
+        "stop" : 1705716924196,
+        "duration" : 188
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2864775900b9a8b5.json",
+  "parameterValues" : [ "'Ricksy Business'" ]
+}

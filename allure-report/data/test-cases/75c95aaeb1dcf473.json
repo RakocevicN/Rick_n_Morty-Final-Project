@@ -1,0 +1,87 @@
+{
+  "uid" : "75c95aaeb1dcf473",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "7e01864c85f07f70c9fe4507cd8218ef",
+  "time" : {
+    "start" : 1705719270710,
+    "stop" : 1705719270839,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Close Rick-counters of the Rick Kind'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b2f9c69bc6e45cce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718411669,
+        "stop" : 1705718411864,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "c4e4d43ce3436b03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717834122,
+        "stop" : 1705717834260,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "7ce4410eda9982bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716923859,
+        "stop" : 1705716924005,
+        "duration" : 146
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75c95aaeb1dcf473.json",
+  "parameterValues" : [ "'Close Rick-counters of the Rick Kind'" ]
+}

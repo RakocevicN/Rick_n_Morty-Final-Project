@@ -1,0 +1,87 @@
+{
+  "uid" : "371466573056d870",
+  "name" : "Test location Info",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "435f57186de2d9cf179112dda8f483c9",
+  "time" : {
+    "start" : 1705719277552,
+    "stop" : 1705719277730,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Interdimensional Cable'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "78c9d3ef20988661",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718417992,
+        "stop" : 1705718418184,
+        "duration" : 192
+      }
+    }, {
+      "uid" : "330a531f97d6fd49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717840957,
+        "stop" : 1705717841094,
+        "duration" : 137
+      }
+    }, {
+      "uid" : "733ecf3cfef7fa59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716930138,
+        "stop" : 1705716930282,
+        "duration" : 144
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "371466573056d870.json",
+  "parameterValues" : [ "'Interdimensional Cable'" ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "4866d51295312bf",
+  "name" : "Test location Info",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "fd026ee6c4e6c1476347488bb09a2e09",
+  "time" : {
+    "start" : 1705719277732,
+    "stop" : 1705719277873,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Immortality Field Resort'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4e25c06981b3b997",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718418186,
+        "stop" : 1705718418351,
+        "duration" : 165
+      }
+    }, {
+      "uid" : "1a268d73733cd091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717841096,
+        "stop" : 1705717841275,
+        "duration" : 179
+      }
+    }, {
+      "uid" : "b03845413a776e12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716930285,
+        "stop" : 1705716930459,
+        "duration" : 174
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4866d51295312bf.json",
+  "parameterValues" : [ "'Immortality Field Resort'" ]
+}

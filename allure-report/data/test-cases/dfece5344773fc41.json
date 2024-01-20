@@ -1,0 +1,92 @@
+{
+  "uid" : "dfece5344773fc41",
+  "name" : "Test negative Info",
+  "fullName" : "tests.test_id.TestRMAid#test_invalid_character_id",
+  "historyId" : "78cddebe21d821c574d7ba00037bb203",
+  "time" : {
+    "start" : 1705719276206,
+    "stop" : 1705719276380,
+    "duration" : 174
+  },
+  "description" : "Test get_character_by_id function with invalid character IDs.",
+  "descriptionHtml" : "<p>Test get_character_by_id function with invalid character IDs.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "character_id",
+    "value" : "-1"
+  }, {
+    "name" : "expected_error_message",
+    "value" : "'Character not found'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "535a7b6df1c9edc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718416657,
+        "stop" : 1705718416806,
+        "duration" : 149
+      }
+    }, {
+      "uid" : "22de27f3657b65ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717839307,
+        "stop" : 1705717839490,
+        "duration" : 183
+      }
+    }, {
+      "uid" : "a58d5459c304775a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716928858,
+        "stop" : 1705716928997,
+        "duration" : 139
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfece5344773fc41.json",
+  "parameterValues" : [ "-1", "'Character not found'" ]
+}

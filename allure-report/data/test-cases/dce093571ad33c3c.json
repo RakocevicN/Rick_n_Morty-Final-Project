@@ -1,0 +1,87 @@
+{
+  "uid" : "dce093571ad33c3c",
+  "name" : "Test ID Info",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "5e1a1be142c21d649154564e883aca17",
+  "time" : {
+    "start" : 1705719273683,
+    "stop" : 1705719273818,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'AbradolfLincler'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4898340208a7d254",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718414402,
+        "stop" : 1705718414546,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "aaddfdb4912eccf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717836698,
+        "stop" : 1705717836831,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "2d590535f689779b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716926653,
+        "stop" : 1705716926798,
+        "duration" : 145
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dce093571ad33c3c.json",
+  "parameterValues" : [ "'AbradolfLincler'" ]
+}

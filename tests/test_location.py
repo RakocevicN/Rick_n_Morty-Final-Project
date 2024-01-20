@@ -1,3 +1,4 @@
+import allure
 import pytest
 from api_file.main_apis import get_location_info
 from asserts.location import assert_response_location
@@ -14,6 +15,8 @@ This test class contains test cases for the Rick and Morty location-related APIs
 class TestRMALocation:
 
     """This tests fetches location information by location names and compares it with the expected data."""
+
+    @allure.title("Test location Info")
     @pytest.mark.parametrize("test_case_name", location_expected_data.keys())
     def test_location_info(self, test_case_name):
         location_id, location_data = get_test_case_data(test_case_name, location_expected_data)

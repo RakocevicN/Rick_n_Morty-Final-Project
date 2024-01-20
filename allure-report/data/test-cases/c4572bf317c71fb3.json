@@ -1,0 +1,87 @@
+{
+  "uid" : "c4572bf317c71fb3",
+  "name" : "Test Episode Info",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "e7e5f729e3b0a2519e9a209f2facc456",
+  "time" : {
+    "start" : 1705719269422,
+    "stop" : 1705719269556,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_episode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Lawnmower Dog'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ebd7fa91f577e823",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718410370,
+        "stop" : 1705718410577,
+        "duration" : 207
+      }
+    }, {
+      "uid" : "3299b35c312644c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717832763,
+        "stop" : 1705717832901,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "863ef22281a42246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716922437,
+        "stop" : 1705716922592,
+        "duration" : 155
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4572bf317c71fb3.json",
+  "parameterValues" : [ "'Lawnmower Dog'" ]
+}

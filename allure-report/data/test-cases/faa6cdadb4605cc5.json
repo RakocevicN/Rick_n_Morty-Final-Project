@@ -1,0 +1,87 @@
+{
+  "uid" : "faa6cdadb4605cc5",
+  "name" : "Test ID Info",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "fe36dcfa450a2db2e623d9d2717d659e",
+  "time" : {
+    "start" : 1705719274480,
+    "stop" : 1705719274629,
+    "duration" : 149
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "9201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Alexander'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bad0de4f1d96fd15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705718415269,
+        "stop" : 1705718415489,
+        "duration" : 220
+      }
+    }, {
+      "uid" : "b1c9af39cb9c07f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705717837413,
+        "stop" : 1705717837546,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "790f106b7f5e76b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705716927465,
+        "stop" : 1705716927600,
+        "duration" : 135
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "faa6cdadb4605cc5.json",
+  "parameterValues" : [ "'Alexander'" ]
+}
