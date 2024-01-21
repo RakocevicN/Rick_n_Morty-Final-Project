@@ -38,12 +38,6 @@ jobs:
           python3.9 -m venv myenv
           source myenv/bin/activate
 
-      - name: Download and install Allure
-        run: |
-          wget https://github.com/allure-framework/allure2/releases/download/2.16.0/allure-2.16.0.tgz
-          tar -xzvf allure-2.16.0.tgz
-          sudo mv allure-2.16.0 /opt/allure-2.16.0
-
       - name: Install dependencies from requirements.txt
         run: pip install -r requirements.txt
 
@@ -69,12 +63,6 @@ jobs:
         run: |
           python3.9 -m venv myenv
           source myenv/bin/activate
-
-      - name: Download and install Allure
-        run: |
-          wget https://github.com/allure-framework/allure2/releases/download/2.16.0/allure-2.16.0.tgz
-          tar -xzvf allure-2.16.0.tgz
-          sudo mv allure-2.16.0 /opt/allure-2.16.0
 
       - name: Install dependencies from requirements.txt
         run: pip install -r requirements.txt
