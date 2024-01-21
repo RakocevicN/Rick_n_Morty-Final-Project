@@ -47,6 +47,9 @@ jobs:
       - name: Install dependencies from requirements.txt
         run: pip install -r requirements.txt
 
+      - name: Install allure-pytest
+        run: pip install allure-pytest==2.13.2
+
       - name: Run tests
         run: pytest tests/test_${{ matrix.test_type }}.py
 
@@ -75,6 +78,9 @@ jobs:
 
       - name: Install dependencies from requirements.txt
         run: pip install -r requirements.txt
+
+      - name: Install allure-pytest
+        run: pip install allure-pytest==2.13.2
 
       - name: Run selected test
         run: pytest tests/${{ github.event.inputs.tests }}.py
