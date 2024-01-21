@@ -1,0 +1,15 @@
+{
+  "total" : 44,
+  "items" : [ {
+    "uid" : "923d3af6b7f0190025cb6ed9a90c8eab",
+    "name" : "Rick and Morty Episode",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

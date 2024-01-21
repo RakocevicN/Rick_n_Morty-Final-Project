@@ -1,0 +1,63 @@
+{
+  "uid" : "af95b1222cd96341",
+  "name" : "test_location_info[Earth (5-126)]",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "a8dddc6d453b551c2721f466c6e65036",
+  "time" : {
+    "start" : 1705797455655,
+    "stop" : 1705797455877,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Earth (5-126)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af95b1222cd96341.json",
+  "parameterValues" : [ "'Earth (5-126)'" ]
+}

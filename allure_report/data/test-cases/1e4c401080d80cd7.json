@@ -1,0 +1,112 @@
+{
+  "uid" : "1e4c401080d80cd7",
+  "name" : "test_id_info[AmishCyborg]",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "1b13ffd035818fe9c427cd82df13fe1e",
+  "time" : {
+    "start" : 1705841833896,
+    "stop" : 1705841834195,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assert Response ID",
+      "time" : {
+        "start" : 1705841834190,
+        "stop" : 1705841834194,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ba352e068eb5a6a",
+        "name" : "{'id': 16, 'name': 'Amish Cyborg', 'status': 'Dead', 'species': 'Alien', 'type': 'Parasite', 'gender': 'Male', 'origin': {'name': 'unknown', 'url': ''}, 'location': {'name': 'Earth (Replacement Dimension)', 'url': 'https://rickandmortyapi.com/api/location/20'}, 'image': 'https://rickandmortyapi.com/api/character/avatar/16.jpeg', 'episode': ['https://rickandmortyapi.com/api/episode/15'], 'url': 'https://rickandmortyapi.com/api/character/16', 'created': '2017-11-04T21:12:45.235Z'}",
+        "source" : "6ba352e068eb5a6a.json",
+        "type" : "application/json",
+        "size" : 8
+      }, {
+        "uid" : "1bfd74942e823a23",
+        "name" : "{'id': 16, 'name': 'Amish Cyborg', 'species': 'Alien', 'status': 'Dead', 'type': 'Parasite', 'gender': 'Male'}",
+        "source" : "1bfd74942e823a23.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "{'id': 16, 'name': 'Amish Cyborg', 'status': 'Dead', 'species': 'Alien', 'type': 'Parasite', 'gender': 'Male', 'origin': {'name': 'unknown', 'url': ''}, 'location': {'name': 'Earth (Replacement Dimension)', 'url': 'https://rickandmortyapi.com/api/location/20'}, 'image': 'https://rickandmortyapi.com/api/character/avatar/16.jpeg', 'episode': ['https://rickandmortyapi.com/api/episode/15'], 'url': 'https://rickandmortyapi.com/api/character/16', 'created': '2017-11-04T21:12:45.235Z'}"
+      }, {
+        "name" : "expected_data",
+        "value" : "{'id': 16, 'name': 'Amish Cyborg', 'species': 'Alien', 'status': 'Dead', 'type': 'Parasite', 'gender': 'Male'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Rick and Morty ID"
+  }, {
+    "name" : "suite",
+    "value" : "Tests for positive/negative ID of Rick & Morty"
+  }, {
+    "name" : "story",
+    "value" : "Positive ID tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "60162-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'AmishCyborg'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e4c401080d80cd7.json",
+  "parameterValues" : [ "'AmishCyborg'" ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "a3e09032955cdadb",
+  "name" : "test_invalid_character_id[-100-Character not found]",
+  "fullName" : "tests.test_id.TestRMAid#test_invalid_character_id",
+  "historyId" : "ba883c6b0feacd7f11a902016c468ac0",
+  "time" : {
+    "start" : 1705797451809,
+    "stop" : 1705797452052,
+    "duration" : 243
+  },
+  "description" : "Test get_character_by_id function with invalid character IDs.",
+  "descriptionHtml" : "<p>Test get_character_by_id function with invalid character IDs.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "character_id",
+    "value" : "-100"
+  }, {
+    "name" : "expected_error_message",
+    "value" : "'Character not found'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3e09032955cdadb.json",
+  "parameterValues" : [ "-100", "'Character not found'" ]
+}

@@ -1,0 +1,63 @@
+{
+  "uid" : "45fd15a37412cbc3",
+  "name" : "test_location_info[Cronenberg Earth]",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "ae32de6889fa2dd2e5106905719152ae",
+  "time" : {
+    "start" : 1705797454577,
+    "stop" : 1705797454757,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Cronenberg Earth'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45fd15a37412cbc3.json",
+  "parameterValues" : [ "'Cronenberg Earth'" ]
+}

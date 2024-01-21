@@ -1,0 +1,118 @@
+{
+  "uid" : "3c771d4b21b2fd64",
+  "name" : "test_invalid_character_id[-100-Character not found]",
+  "fullName" : "tests.test_id.TestRMAid#test_invalid_character_id",
+  "historyId" : "ba883c6b0feacd7f11a902016c468ac0",
+  "time" : {
+    "start" : 1705841835886,
+    "stop" : 1705841836142,
+    "duration" : 256
+  },
+  "description" : "Test get_character_by_id function with invalid character IDs.",
+  "descriptionHtml" : "<p>Test get_character_by_id function with invalid character IDs.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test get_character_by_id function with invalid character IDs.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assert Response Negative Tests",
+      "time" : {
+        "start" : 1705841836140,
+        "stop" : 1705841836142,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f309ddfda3ff55c",
+        "name" : "{'error': 'Character not found'}",
+        "source" : "7f309ddfda3ff55c.json",
+        "type" : "application/json",
+        "size" : 8
+      }, {
+        "uid" : "7c2ea3da69a39c68",
+        "name" : "Character not found",
+        "source" : "7c2ea3da69a39c68.txt",
+        "type" : "text/plain",
+        "size" : 22
+      } ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "{'error': 'Character not found'}"
+      }, {
+        "name" : "expected_error_message",
+        "value" : "'Character not found'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Negative ID tests"
+  }, {
+    "name" : "feature",
+    "value" : "Rick and Morty ID"
+  }, {
+    "name" : "suite",
+    "value" : "Tests for positive/negative ID of Rick & Morty"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "60162-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "character_id",
+    "value" : "-100"
+  }, {
+    "name" : "expected_error_message",
+    "value" : "'Character not found'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c771d4b21b2fd64.json",
+  "parameterValues" : [ "-100", "'Character not found'" ]
+}

@@ -1,0 +1,112 @@
+{
+  "uid" : "ea391dec94487ca4",
+  "name" : "test_id_info[AlbertEinstein]",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "4421b413295b5f94ecee5c01b41ad2e1",
+  "time" : {
+    "start" : 1705841832261,
+    "stop" : 1705841832601,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assert Response ID",
+      "time" : {
+        "start" : 1705841832598,
+        "stop" : 1705841832601,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc01aef36c919002",
+        "name" : "{'id': 11, 'name': 'Albert Einstein', 'status': 'Dead', 'species': 'Human', 'type': '', 'gender': 'Male', 'origin': {'name': 'Earth (C-137)', 'url': 'https://rickandmortyapi.com/api/location/1'}, 'location': {'name': 'Earth (Replacement Dimension)', 'url': 'https://rickandmortyapi.com/api/location/20'}, 'image': 'https://rickandmortyapi.com/api/character/avatar/11.jpeg', 'episode': ['https://rickandmortyapi.com/api/episode/12'], 'url': 'https://rickandmortyapi.com/api/character/11', 'created': '2017-11-04T20:20:20.965Z'}",
+        "source" : "cc01aef36c919002.json",
+        "type" : "application/json",
+        "size" : 8
+      }, {
+        "uid" : "5c0b96808a4160b4",
+        "name" : "{'id': 11, 'name': 'Albert Einstein', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}",
+        "source" : "5c0b96808a4160b4.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "{'id': 11, 'name': 'Albert Einstein', 'status': 'Dead', 'species': 'Human', 'type': '', 'gender': 'Male', 'origin': {'name': 'Earth (C-137)', 'url': 'https://rickandmortyapi.com/api/location/1'}, 'location': {'name': 'Earth (Replacement Dimension)', 'url': 'https://rickandmortyapi.com/api/location/20'}, 'image': 'https://rickandmortyapi.com/api/character/avatar/11.jpeg', 'episode': ['https://rickandmortyapi.com/api/episode/12'], 'url': 'https://rickandmortyapi.com/api/character/11', 'created': '2017-11-04T20:20:20.965Z'}"
+      }, {
+        "name" : "expected_data",
+        "value" : "{'id': 11, 'name': 'Albert Einstein', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Rick and Morty ID"
+  }, {
+    "name" : "suite",
+    "value" : "Tests for positive/negative ID of Rick & Morty"
+  }, {
+    "name" : "story",
+    "value" : "Positive ID tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "60162-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'AlbertEinstein'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea391dec94487ca4.json",
+  "parameterValues" : [ "'AlbertEinstein'" ]
+}
