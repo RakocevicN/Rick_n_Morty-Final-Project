@@ -1,0 +1,63 @@
+{
+  "uid" : "e4d36d22b900aaf1",
+  "name" : "test_location_info[Bepis 9]",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "b4eb7462b06972683d3c0ea498dfd9ed",
+  "time" : {
+    "start" : 1705797454339,
+    "stop" : 1705797454573,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Bepis 9'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4d36d22b900aaf1.json",
+  "parameterValues" : [ "'Bepis 9'" ]
+}

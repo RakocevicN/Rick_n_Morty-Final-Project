@@ -1,21 +1,34 @@
 # [Rick and Morty](https://rickandmortyapi.com/documentation)
 
-This project uses Python 3.10.12 at the moment, more about Python 3.10.12 [here](https://www.python.org/downloads/release/python-31012/).
+This project uses Python 3.9.18 at the moment, because of the compatibility with Allure 2.16.0
+* [Python 3.9.18](https://www.python.org/downloads/release/python-3918/)
+* [Allure pytest documentation](https://allurereport.org/docs/pytest/)
 
-## Dependecines before executing tests
+
+
+## To start 
 
 1. Clone the repository to your local machine and change into the project directory:
    * git clone https://github.com/RakocevicN/Rick_n_Morty-Final-Project.git 
 
 2. Create virtual environment
-   * python3 -m venv myenv
+   * python3.9 -m venv myenv 
   
 3. Activate virtual environment:
    * source myenv/bin/activate
 
 4. Install requirementas:
    * pip install -r requirements.txt
-  
+
+5. Download and install Allure
+   * wget https://github.com/allure-framework/allure2/releases/download/2.16.0/allure-2.16.0.tgz
+
+6. Extracted the package and moved it to the /opt directory
+   * tar -xzvf allure-2.16.0.tgz
+   * sudo mv allure-2.16.0 /opt/allure-2.16.0
+7. Create symbolic link in the bin directory to make Allure cmd-line globally accessible
+   * sudo ln -s /opt/allure-2.16.0/bin/allure /usr/bin/allure
+
 ## Overview of Tests
 This project includes a  set of tests to ensure the functionality and reliability of [Rick and Morty](https://rickandmortyapi.com/documentation). The tests are organized into three main categories, each targeting a specific aspect of the API:
 #### 1. Episode Tests

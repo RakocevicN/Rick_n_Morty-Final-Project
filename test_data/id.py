@@ -1,13 +1,25 @@
 """
-Test data providers for character ID tests.
-This data providers contains test data for character-related tests that require character IDs.
-It is a dictionary where each key represents a character ID
+Test data for ID tests.
+This data includes positive and negative test cases for ID tests.
+The data is organized as a dictionary, where each key represents a character ID.
 """
+import allure
 
 
+@allure.step("Get test case data")
 def get_test_case_data(test_case_name, data_from_dic):
+    """
+        Get test case data for a given test case name from a data dictionary and returns
+        ID and ID DATA
+        Parametars:
+            test_case_name (str)
+            data_from_dic (dict): test case data
+        """
     character_id = data_from_dic[test_case_name]['id']
     character_data = data_from_dic[test_case_name]['data']
+    allure.attach("Test Case name", test_case_name, allure.attachment_type.TEXT)
+    allure.attach("Character ID", str(character_id), allure.attachment_type.TEXT)
+    allure.attach("Character Data", str(character_data), allure.attachment_type.JSON)
     return character_id, character_data
 
 
@@ -255,6 +267,9 @@ id_positive_expected_data = {
 
 
 def generate_invalid_character_id_test_data():
+    """
+    Generate invalid for ID test negative tests cases and returns dictionary containing negative test data
+    """
     return negative_id_expected_data
 
 

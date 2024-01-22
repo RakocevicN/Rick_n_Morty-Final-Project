@@ -1,0 +1,199 @@
+{
+  "uid" : "d4263a037746b0cd",
+  "name" : "test_id_info[AgencyDirector]",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "34d36eb381d89f1caf5c7b4f36a252e1",
+  "time" : {
+    "start" : 1705887127148,
+    "stop" : 1705887127333,
+    "duration" : 185
+  },
+  "description" : "Verifies character information retrieval by ID for positive scenarios.",
+  "descriptionHtml" : "<p>Verifies character information retrieval by ID for positive scenarios.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verifies character information retrieval by ID for positive scenarios.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.Get test case data for AgencyDirector ",
+      "time" : {
+        "start" : 1705887127148,
+        "stop" : 1705887127149,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get test case data",
+        "time" : {
+          "start" : 1705887127148,
+          "stop" : 1705887127149,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "551e7986a0410beb",
+          "name" : "AgencyDirector",
+          "source" : "551e7986a0410beb.txt",
+          "type" : "text/plain",
+          "size" : 14
+        }, {
+          "uid" : "e0d4ebac5318ea40",
+          "name" : "9",
+          "source" : "e0d4ebac5318ea40.txt",
+          "type" : "text/plain",
+          "size" : 12
+        }, {
+          "uid" : "b9417a932df402c0",
+          "name" : "{'id': 9, 'name': 'Agency Director', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}",
+          "source" : "b9417a932df402c0.json",
+          "type" : "application/json",
+          "size" : 14
+        } ],
+        "parameters" : [ {
+          "name" : "test_case_name",
+          "value" : "'AgencyDirector'"
+        }, {
+          "name" : "data_from_dic",
+          "value" : "{'RickSanchez': {'id': 1, 'data': {'id': 1, 'name': 'Rick Sanchez', 'species': 'Human', 'status': 'Alive', 'type': '', 'gender': 'Male'}}, 'MortySmith': {'id': 2, 'data': {'id': 2, 'name': 'Morty Smith', 'species': 'Human', 'status': 'Alive', 'type': '', 'gender': 'Male'}}, 'SummerSmith': {'id': 3, 'data': {'id': 3, 'name': 'Summer Smith', 'species': 'Human', 'status': 'Alive', 'type': '', 'gender': 'Female'}}, 'BethSmith': {'id': 4, 'data': {'id': 4, 'name': 'Beth Smith', 'species': 'Human', 'status': 'Alive', 'type': '', 'gender': 'Female'}}, 'JerrySmith': {'id': 5, 'data': {'id': 5, 'name': 'Jerry Smith', 'species': 'Human', 'status': 'Alive', 'type': '', 'gender': 'Male'}}, 'AbadangoClusterPrincess': {'id': 6, 'data': {'id': 6, 'name': 'Abadango Cluster Princess', 'species': 'Alien', 'status': 'Alive', 'type': '', 'gender': 'Female'}}, 'AbradolfLincler': {'id': 7, 'data': {'id': 7, 'name': 'Abradolf Lincler', 'species': 'Human', 'status': 'unknown', 'type': 'Genetic experiment', 'gender': 'Male'}}, 'AdjudicatorRick': {'id': 8, 'data': {'id': 8, 'name': 'Adjudicator Rick', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}}, 'AgencyDirector': {'id': 9, 'data': {'id': 9, 'name': 'Agency Director', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}}, 'AlanRails': {'id': 10, 'data': {'id': 10, 'name': 'Alan Rails', 'species': 'Human', 'status': 'Dead', 'type': 'Superhuman (Ghost trains summoner)', 'gender': 'Male'}}, 'AlbertEinstein': {'id': 11, 'data': {'id': 11, 'name': 'Albert Einstein', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}}, 'Alexander': {'id': 12, 'data': {'id': 12, 'name': 'Alexander', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}}, 'AlienGoogah': {'id': 13, 'data': {'id': 13, 'name': 'Alien Googah', 'species': 'Alien', 'status': 'unknown', 'type': '', 'gender': 'unknown'}}, 'AlienMorty': {'id': 14, 'data': {'id': 14, 'name': 'Alien Morty', 'species': 'Alien', 'status': 'unknown', 'type': '', 'gender': 'Male'}}, 'AlienRick': {'id': 15, 'data': {'id': 15, 'name': 'Alien Rick', 'species': 'Alien', 'status': 'unknown', 'type': '', 'gender': 'Male'}}, 'AmishCyborg': {'id': 16, 'data': {'id': 16, 'name': 'Amish Cyborg', 'species': 'Alien', 'status': 'Dead', 'type': 'Parasite', 'gender': 'Male'}}, 'Annie': {'id': 17, 'data': {'id': 17, 'name': 'Annie', 'species': 'Human', 'status': 'Alive', 'type': '', 'gender': 'Female'}}, 'AntennaMorty': {'id': 18, 'data': {'id': 18, 'name': 'Antenna Morty', 'species': 'Human', 'status': 'Alive', 'type': 'Human with antennae', 'gender': 'Male'}}, 'AntennaRick': {'id': 19, 'data': {'id': 19, 'name': 'Antenna Rick', 'species': 'Human', 'status': 'unknown', 'type': 'Human with antennae', 'gender': 'Male'}}, 'AntsInMyEyesJohnson': {'id': 20, 'data': {'id': 20, 'name': 'Ants in my Eyes Johnson', 'species': 'Human', 'status': 'unknown', 'type': 'Human with ants in his eyes', 'gender': 'Male'}}}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "2.Get character by character id:9 for AgencyDirector",
+      "time" : {
+        "start" : 1705887127150,
+        "stop" : 1705887127332,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "3.Assert response for AgencyDirector test case",
+      "time" : {
+        "start" : 1705887127332,
+        "stop" : 1705887127333,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Assert Response Positive Test",
+        "time" : {
+          "start" : 1705887127332,
+          "stop" : 1705887127333,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d9b03c46c670abd4",
+          "name" : "{'id': 9, 'name': 'Agency Director', 'status': 'Dead', 'species': 'Human', 'type': '', 'gender': 'Male', 'origin': {'name': 'Earth (Replacement Dimension)', 'url': 'https://rickandmortyapi.com/api/location/20'}, 'location': {'name': 'Earth (Replacement Dimension)', 'url': 'https://rickandmortyapi.com/api/location/20'}, 'image': 'https://rickandmortyapi.com/api/character/avatar/9.jpeg', 'episode': ['https://rickandmortyapi.com/api/episode/24'], 'url': 'https://rickandmortyapi.com/api/character/9', 'created': '2017-11-04T20:06:54.976Z'}",
+          "source" : "d9b03c46c670abd4.json",
+          "type" : "application/json",
+          "size" : 8
+        }, {
+          "uid" : "750c1b7dc712d522",
+          "name" : "{'id': 9, 'name': 'Agency Director', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}",
+          "source" : "750c1b7dc712d522.json",
+          "type" : "application/json",
+          "size" : 13
+        } ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "{'id': 9, 'name': 'Agency Director', 'status': 'Dead', 'species': 'Human', 'type': '', 'gender': 'Male', 'origin': {'name': 'Earth (Replacement Dimension)', 'url': 'https://rickandmortyapi.com/api/location/20'}, 'location': {'name': 'Earth (Replacement Dimension)', 'url': 'https://rickandmortyapi.com/api/location/20'}, 'image': 'https://rickandmortyapi.com/api/character/avatar/9.jpeg', 'episode': ['https://rickandmortyapi.com/api/episode/24'], 'url': 'https://rickandmortyapi.com/api/character/9', 'created': '2017-11-04T20:06:54.976Z'}"
+        }, {
+          "name" : "expected_data",
+          "value" : "{'id': 9, 'name': 'Agency Director', 'species': 'Human', 'status': 'Dead', 'type': '', 'gender': 'Male'}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Positive ID tests"
+  }, {
+    "name" : "feature",
+    "value" : "Rick and Morty ID"
+  }, {
+    "name" : "story",
+    "value" : "Rick & Morty positive ID tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "97223-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'AgencyDirector'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4263a037746b0cd.json",
+  "parameterValues" : [ "'AgencyDirector'" ]
+}

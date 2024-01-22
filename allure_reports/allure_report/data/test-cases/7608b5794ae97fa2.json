@@ -1,0 +1,63 @@
+{
+  "uid" : "7608b5794ae97fa2",
+  "name" : "test_id_info[AlienGoogah]",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "fbcdf2261c95daf12d388b740331e0ae",
+  "time" : {
+    "start" : 1705797449654,
+    "stop" : 1705797449837,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'AlienGoogah'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7608b5794ae97fa2.json",
+  "parameterValues" : [ "'AlienGoogah'" ]
+}

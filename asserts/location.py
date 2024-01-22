@@ -1,6 +1,11 @@
+"""
+asserts.location.py contains functions for asserting response data in location tests
+"""
+import allure
 import deepdiff
 
 
+@allure.step("Assert Response Location")
 def assert_response_location(response, expected_data):
     """
     This function checks if the response matches the expected data for location
@@ -14,4 +19,7 @@ def assert_response_location(response, expected_data):
     differences = deepdiff.DeepDiff(response, expected_data, exclude_paths=excluded)
 
     if differences:
-        assert False, f"Response data does not match location expected data, there are the differences"
+        allure.attach("Response Data", str(response), allure.attachment_type.JSON)
+        allure.attach("Expected Data", str(expected_data), allure.attachment_type.JSON)
+        allure.attach("Differences", str(differences), allure.attachment_type.TEXT)
+    assert not differences

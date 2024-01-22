@@ -1,0 +1,63 @@
+{
+  "uid" : "81bb033a7d248bf3",
+  "name" : "test_id_info[AbradolfLincler]",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "5e1a1be142c21d649154564e883aca17",
+  "time" : {
+    "start" : 1705797448326,
+    "stop" : 1705797448527,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'AbradolfLincler'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81bb033a7d248bf3.json",
+  "parameterValues" : [ "'AbradolfLincler'" ]
+}

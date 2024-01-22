@@ -1,0 +1,63 @@
+{
+  "uid" : "e2fed2a804d442c2",
+  "name" : "test_location_info[Earth (Replacement Dimension)]",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "76b57f29c92ce7e1d3e713716fc9701c",
+  "time" : {
+    "start" : 1705797456302,
+    "stop" : 1705797456484,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Earth (Replacement Dimension)'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2fed2a804d442c2.json",
+  "parameterValues" : [ "'Earth (Replacement Dimension)'" ]
+}

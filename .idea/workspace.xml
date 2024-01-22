@@ -27,8 +27,7 @@
       <change beforePath="$PROJECT_DIR$/../.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.ssh/id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/../.ssh/id_rsa.pub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/run-tests-all.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/run-tests-all.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../rickNmorty/.idea/rickNmorty.iml" afterDir="false" />
@@ -79,29 +78,36 @@
     "Python tests.Python tests for test_location.TestRMALocation.test_location_info.executor": "Run",
     "Python tests.Python tests for tests.test_location.TestRMALocation.test_get_location_info.executor": "Run",
     "Python tests.Python tests in test_episode.py.executor": "Run",
+    "Python tests.Python tests in test_execution.py.executor": "Run",
     "Python tests.Python tests in test_id.py.executor": "Run",
     "Python tests.Python tests in test_location.py.executor": "Run",
     "Python.episode.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main_apis.executor": "Run",
+    "Python.scratch_1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "second__branch",
+    "git-widget-placeholder": "allure__fix",
     "last_opened_file_path": "//wsl.localhost/Ubuntu-22.04/root/projects/GH-action-trening",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\allure_reports" />
       <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\api_file" />
       <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\apis" />
       <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\apis\neki_direktorijum" />
       <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\testici" />
-      <recent name="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\glavni_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_location.TestRMALocation.test_location_info">
-    <configuration name="test_execution" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_execution.py">
+    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +116,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_execution" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Rick_n_Morty-Final-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="Python" value="3.12" />
+      </envs>
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="\\wsl.localhost\Ubuntu-22.04\root\Rick_n_Morty-Final-Project\test_execution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_execution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,36 +182,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_id.TestRMAid.test_id_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Rick_n_Morty-Final-Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_id.TestRMAid.test_id_info&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_location.TestRMALocation.test_get_location_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Rick_n_Morty-Final-Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_location.TestRMALocation.test_get_location_info&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_location.TestRMALocation.test_location_info" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Rick_n_Morty-Final-Project" />
       <option name="ENV_FILES" value="" />
@@ -198,13 +197,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_execution.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Rick_n_Morty-Final-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_execution.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_execution" />
+      <item itemvalue="Python.scratch_1" />
+      <item itemvalue="Python tests.Python tests in test_execution.py" />
+      <item itemvalue="Python tests.Python tests for test_episode.TestRMEpisode.test_episode_info" />
+      <item itemvalue="Python tests.Python tests for test_id.TestRMAid" />
+      <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_location_info" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_execution.py" />
+        <item itemvalue="Python.scratch_1" />
         <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_location_info" />
         <item itemvalue="Python tests.Python tests for test_id.TestRMAid" />
         <item itemvalue="Python tests.Python tests for test_episode.TestRMEpisode.test_episode_info" />
-        <item itemvalue="Python tests.Python tests for test_id.TestRMAid.test_id_info" />
-        <item itemvalue="Python tests.Python tests for test_location.TestRMALocation.test_get_location_info" />
       </list>
     </recent_temporary>
   </component>

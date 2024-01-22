@@ -1,15 +1,33 @@
+"""
+asserts.episode.py contains functions for asserting response data in episode tests
+"""
+import allure
 import deepdiff
 
 
+@allure.step("Assert Response Episode")
 def assert_response_episode(response, expected_data):
-    # Exclude from comparison
+    """
+    This function checks two conditions:
+    1. It ensures that the provided response is a dictionary.
+    2. It compares the response data with expected data for episodes, excluding specified paths.
+
+    AssertionError will be present if any of the verification conditions fail.
+
+    """
+
+    allure.attach("Response", str(response), allure.attachment_type.JSON)
+    allure.attach("Expected Data", str(expected_data), allure.attachment_type.JSON)
+
     excluded = [
         "root['characters']",
         "root['url']",
         "root['created']"
     ]
 
-    # Find differences excluding the specified paths
     differences = deepdiff.DeepDiff(response, expected_data, exclude_paths=excluded)
+
     if differences:
-        assert False, f"Response data does not match expected data, this are the differences: {differences}"
+        error_message = f"Response data does not match expected data, these are the differences: {differences}"
+        allure.attach("Assertion Error", error_message, allure.attachment_type.TEXT)
+        raise AssertionError(error_message)

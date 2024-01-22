@@ -1,0 +1,63 @@
+{
+  "uid" : "dad58ea790e2220e",
+  "name" : "test_id_info[RickSanchez]",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "66df43d524176b2886498e32d0a03478",
+  "time" : {
+    "start" : 1705797446900,
+    "stop" : 1705797447122,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'RickSanchez'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dad58ea790e2220e.json",
+  "parameterValues" : [ "'RickSanchez'" ]
+}

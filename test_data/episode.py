@@ -1,14 +1,21 @@
-"""
-This file provides data related to episodes, specifically
-designed for testing purposes involving episodes.
-Episode data provider dictionary contains detailed information about each episode
-"""
+import allure
 
 
+@allure.step("Get test case data")
 def get_test_case_data(test_case_name, data_from_dic):
-    episode_id = data_from_dic[test_case_name]['id']
-    episode_data = data_from_dic[test_case_name]['data']
-    return episode_id, episode_data
+    """
+    Get test case data for a given test case name from a data dictionary and returns
+    ID and ID DATA
+    Parameters:
+        test_case_name (str)
+        data_from_dic (dict): test case data
+    """
+    character_id = data_from_dic[test_case_name]['id']
+    character_data = data_from_dic[test_case_name]['data']
+    allure.attach("Test Case name", test_case_name, allure.attachment_type.TEXT)
+    allure.attach("Character ID", str(character_id), allure.attachment_type.TEXT)
+    allure.attach("Character Data", str(character_data), allure.attachment_type.JSON)
+    return character_id, character_data
 
 
 episode_expected_data = {

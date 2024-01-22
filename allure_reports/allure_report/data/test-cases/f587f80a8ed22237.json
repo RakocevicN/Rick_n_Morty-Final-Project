@@ -1,0 +1,63 @@
+{
+  "uid" : "f587f80a8ed22237",
+  "name" : "test_id_info[MortySmith]",
+  "fullName" : "tests.test_id.TestRMAid#test_id_info",
+  "historyId" : "c8e61cb63f8a7e9660a9548a224a172d",
+  "time" : {
+    "start" : 1705797447125,
+    "stop" : 1705797447306,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'MortySmith'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f587f80a8ed22237.json",
+  "parameterValues" : [ "'MortySmith'" ]
+}

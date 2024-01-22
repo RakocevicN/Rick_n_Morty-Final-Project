@@ -1,0 +1,63 @@
+{
+  "uid" : "850c284988010a82",
+  "name" : "test_location_info[Interdimensional Cable]",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "435f57186de2d9cf179112dda8f483c9",
+  "time" : {
+    "start" : 1705797453263,
+    "stop" : 1705797453464,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_location"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "35693-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Interdimensional Cable'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "850c284988010a82.json",
+  "parameterValues" : [ "'Interdimensional Cable'" ]
+}
