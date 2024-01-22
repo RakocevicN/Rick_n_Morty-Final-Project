@@ -28,6 +28,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.18
+
       - name: Create and activate virtual environment
         run: |
           python3.9 -m venv myenv
@@ -48,6 +53,11 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9.18'
 
       - name: Create and activate virtual environment
         run: |
