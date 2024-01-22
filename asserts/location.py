@@ -1,5 +1,8 @@
-import deepdiff
+"""
+asserts.location.py contains functions for asserting response data in location tests
+"""
 import allure
+import deepdiff
 
 
 @allure.step("Assert Response Location")

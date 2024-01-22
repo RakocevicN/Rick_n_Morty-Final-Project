@@ -1,0 +1,199 @@
+{
+  "uid" : "9b5e8ae1b18059bd",
+  "name" : "test_episode_info[Ricksy Business]",
+  "fullName" : "tests.test_episode.TestRMEpisode#test_episode_info",
+  "historyId" : "77caa83d3bc43529a78be1e9b8c937de",
+  "time" : {
+    "start" : 1705887127550,
+    "stop" : 1705887127746,
+    "duration" : 196
+  },
+  "description" : "Verifies episode information retrieval by episode id",
+  "descriptionHtml" : "<p>Verifies episode information retrieval by episode id</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verifies episode information retrieval by episode id",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.Get test case data for Ricksy Business",
+      "time" : {
+        "start" : 1705887127551,
+        "stop" : 1705887127551,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get test case data",
+        "time" : {
+          "start" : 1705887127551,
+          "stop" : 1705887127551,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e24ea8198ebe5dff",
+          "name" : "Ricksy Business",
+          "source" : "e24ea8198ebe5dff.txt",
+          "type" : "text/plain",
+          "size" : 14
+        }, {
+          "uid" : "dde6e1ec27ac1849",
+          "name" : "11",
+          "source" : "dde6e1ec27ac1849.txt",
+          "type" : "text/plain",
+          "size" : 12
+        }, {
+          "uid" : "71eaaa056dd10c1f",
+          "name" : "{'id': 11, 'name': 'Ricksy Business', 'air_date': 'April 14, 2014', 'episode': 'S01E11'}",
+          "source" : "71eaaa056dd10c1f.json",
+          "type" : "application/json",
+          "size" : 14
+        } ],
+        "parameters" : [ {
+          "name" : "test_case_name",
+          "value" : "'Ricksy Business'"
+        }, {
+          "name" : "data_from_dic",
+          "value" : "{'Pilot': {'id': 1, 'data': {'id': 1, 'name': 'Pilot', 'air_date': 'December 2, 2013', 'episode': 'S01E01'}}, 'Lawnmower Dog': {'id': 2, 'data': {'id': 2, 'name': 'Lawnmower Dog', 'air_date': 'December 9, 2013', 'episode': 'S01E02'}}, 'Anatomy Park': {'id': 3, 'data': {'id': 3, 'name': 'Anatomy Park', 'air_date': 'December 16, 2013', 'episode': 'S01E03'}}, 'M. Night Shaym-Aliens!': {'id': 4, 'data': {'id': 4, 'name': 'M. Night Shaym-Aliens!', 'air_date': 'January 13, 2014', 'episode': 'S01E04'}}, 'Meeseeks and Destroy': {'id': 5, 'data': {'id': 5, 'name': 'Meeseeks and Destroy', 'air_date': 'January 20, 2014', 'episode': 'S01E05'}}, 'Rick Potion #9': {'id': 6, 'data': {'id': 6, 'name': 'Rick Potion #9', 'air_date': 'January 27, 2014', 'episode': 'S01E06'}}, 'Raising Gazorpazorp': {'id': 7, 'data': {'id': 7, 'name': 'Raising Gazorpazorp', 'air_date': 'March 10, 2014', 'episode': 'S01E07'}}, 'Rixty Minutes': {'id': 8, 'data': {'id': 8, 'name': 'Rixty Minutes', 'air_date': 'March 17, 2014', 'episode': 'S01E08'}}, 'Something Ricked This Way Comes': {'id': 9, 'data': {'id': 9, 'name': 'Something Ricked This Way Comes', 'air_date': 'March 24, 2014', 'episode': 'S01E09'}}, 'Close Rick-counters of the Rick Kind': {'id': 10, 'data': {'id': 10, 'name': 'Close Rick-counters of the Rick Kind', 'air_date': 'April 7, 2014', 'episode': 'S01E10'}}, 'Ricksy Business': {'id': 11, 'data': {'id': 11, 'name': 'Ricksy Business', 'air_date': 'April 14, 2014', 'episode': 'S01E11'}}, 'A Rickle in Time': {'id': 12, 'data': {'id': 12, 'name': 'A Rickle in Time', 'air_date': 'July 26, 2015', 'episode': 'S02E01'}}, 'Mortynight Run': {'id': 13, 'data': {'id': 13, 'name': 'Mortynight Run', 'air_date': 'August 2, 2015', 'episode': 'S02E02'}}, 'Auto Erotic Assimilation': {'id': 14, 'data': {'id': 14, 'name': 'Auto Erotic Assimilation', 'air_date': 'August 9, 2015', 'episode': 'S02E03'}}, 'Total Rickall': {'id': 15, 'data': {'id': 15, 'name': 'Total Rickall', 'air_date': 'August 16, 2015', 'episode': 'S02E04'}}, 'Get Schwifty': {'id': 16, 'data': {'id': 16, 'name': 'Get Schwifty', 'air_date': 'August 23, 2015', 'episode': 'S02E05'}}, 'The Ricks Must Be Crazy': {'id': 17, 'data': {'id': 17, 'name': 'The Ricks Must Be Crazy', 'air_date': 'August 30, 2015', 'episode': 'S02E06'}}, 'Big Trouble in Little Sanchez': {'id': 18, 'data': {'id': 18, 'name': 'Big Trouble in Little Sanchez', 'air_date': 'September 13, 2015', 'episode': 'S02E07'}}, 'Interdimensional Cable 2: Tempting Fate': {'id': 19, 'data': {'id': 19, 'name': 'Interdimensional Cable 2: Tempting Fate', 'air_date': 'September 20, 2015', 'episode': 'S02E08'}}, \"Look Who's Purging Now\": {'id': 20, 'data': {'id': 20, 'name': \"Look Who's Purging Now\", 'air_date': 'September 27, 2015', 'episode': 'S02E09'}}}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "2.Get episode by episode id: 11 for Ricksy Business",
+      "time" : {
+        "start" : 1705887127551,
+        "stop" : 1705887127744,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "3.Assert response for Ricksy Business test case",
+      "time" : {
+        "start" : 1705887127744,
+        "stop" : 1705887127745,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Assert Response Episode",
+        "time" : {
+          "start" : 1705887127744,
+          "stop" : 1705887127745,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8e828c7ac5fe42c5",
+          "name" : "{'id': 11, 'name': 'Ricksy Business', 'air_date': 'April 14, 2014', 'episode': 'S01E11', 'characters': ['https://rickandmortyapi.com/api/character/1', 'https://rickandmortyapi.com/api/character/2', 'https://rickandmortyapi.com/api/character/3', 'https://rickandmortyapi.com/api/character/4', 'https://rickandmortyapi.com/api/character/5', 'https://rickandmortyapi.com/api/character/7', 'https://rickandmortyapi.com/api/character/35', 'https://rickandmortyapi.com/api/character/47', 'https://rickandmortyapi.com/api/character/58', 'https://rickandmortyapi.com/api/character/88', 'https://rickandmortyapi.com/api/character/180', 'https://rickandmortyapi.com/api/character/181', 'https://rickandmortyapi.com/api/character/210', 'https://rickandmortyapi.com/api/character/216', 'https://rickandmortyapi.com/api/character/251', 'https://rickandmortyapi.com/api/character/282', 'https://rickandmortyapi.com/api/character/295', 'https://rickandmortyapi.com/api/character/308', 'https://rickandmortyapi.com/api/character/326', 'https://rickandmortyapi.com/api/character/327', 'https://rickandmortyapi.com/api/character/331', 'https://rickandmortyapi.com/api/character/333', 'https://rickandmortyapi.com/api/character/344', 'https://rickandmortyapi.com/api/character/362', 'https://rickandmortyapi.com/api/character/389', 'https://rickandmortyapi.com/api/character/395', 'https://rickandmortyapi.com/api/character/405', 'https://rickandmortyapi.com/api/character/423', 'https://rickandmortyapi.com/api/character/435', 'https://rickandmortyapi.com/api/character/436'], 'url': 'https://rickandmortyapi.com/api/episode/11', 'created': '2017-11-10T12:56:34.850Z'}",
+          "source" : "8e828c7ac5fe42c5.json",
+          "type" : "application/json",
+          "size" : 8
+        }, {
+          "uid" : "d89a3215a82f07bd",
+          "name" : "{'id': 11, 'name': 'Ricksy Business', 'air_date': 'April 14, 2014', 'episode': 'S01E11'}",
+          "source" : "d89a3215a82f07bd.json",
+          "type" : "application/json",
+          "size" : 13
+        } ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "{'id': 11, 'name': 'Ricksy Business', 'air_date': 'April 14, 2014', 'episode': 'S01E11', 'characters': ['https://rickandmortyapi.com/api/character/1', 'https://rickandmortyapi.com/api/character/2', 'https://rickandmortyapi.com/api/character/3', 'https://rickandmortyapi.com/api/character/4', 'https://rickandmortyapi.com/api/character/5', 'https://rickandmortyapi.com/api/character/7', 'https://rickandmortyapi.com/api/character/35', 'https://rickandmortyapi.com/api/character/47', 'https://rickandmortyapi.com/api/character/58', 'https://rickandmortyapi.com/api/character/88', 'https://rickandmortyapi.com/api/character/180', 'https://rickandmortyapi.com/api/character/181', 'https://rickandmortyapi.com/api/character/210', 'https://rickandmortyapi.com/api/character/216', 'https://rickandmortyapi.com/api/character/251', 'https://rickandmortyapi.com/api/character/282', 'https://rickandmortyapi.com/api/character/295', 'https://rickandmortyapi.com/api/character/308', 'https://rickandmortyapi.com/api/character/326', 'https://rickandmortyapi.com/api/character/327', 'https://rickandmortyapi.com/api/character/331', 'https://rickandmortyapi.com/api/character/333', 'https://rickandmortyapi.com/api/character/344', 'https://rickandmortyapi.com/api/character/362', 'https://rickandmortyapi.com/api/character/389', 'https://rickandmortyapi.com/api/character/395', 'https://rickandmortyapi.com/api/character/405', 'https://rickandmortyapi.com/api/character/423', 'https://rickandmortyapi.com/api/character/435', 'https://rickandmortyapi.com/api/character/436'], 'url': 'https://rickandmortyapi.com/api/episode/11', 'created': '2017-11-10T12:56:34.850Z'}"
+        }, {
+          "name" : "expected_data",
+          "value" : "{'id': 11, 'name': 'Ricksy Business', 'air_date': 'April 14, 2014', 'episode': 'S01E11'}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Positive episode tests"
+  }, {
+    "name" : "story",
+    "value" : "Rick & Morty Episode tests"
+  }, {
+    "name" : "feature",
+    "value" : "Rick and Morty Episode"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMEpisode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "97221-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_episode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Ricksy Business'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b5e8ae1b18059bd.json",
+  "parameterValues" : [ "'Ricksy Business'" ]
+}

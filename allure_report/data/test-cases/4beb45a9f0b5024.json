@@ -1,0 +1,148 @@
+{
+  "uid" : "4beb45a9f0b5024",
+  "name" : "test_invalid_character_id[-1-Character not found]",
+  "fullName" : "tests.test_id.TestRMAid#test_invalid_character_id",
+  "historyId" : "78cddebe21d821c574d7ba00037bb203",
+  "time" : {
+    "start" : 1705887129649,
+    "stop" : 1705887129864,
+    "duration" : 215
+  },
+  "description" : "Verifies character information retrieval by ID for negative scenarios.",
+  "descriptionHtml" : "<p>Verifies character information retrieval by ID for negative scenarios.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verifies character information retrieval by ID for negative scenarios.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.Get character by ID: -1",
+      "time" : {
+        "start" : 1705887129649,
+        "stop" : 1705887129863,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "2.Assert response for negative scenario",
+      "time" : {
+        "start" : 1705887129863,
+        "stop" : 1705887129864,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Assert Response Negative Test",
+        "time" : {
+          "start" : 1705887129863,
+          "stop" : 1705887129864,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6265d612324cf8cc",
+          "name" : "{'error': 'Character not found'}",
+          "source" : "6265d612324cf8cc.json",
+          "type" : "application/json",
+          "size" : 8
+        }, {
+          "uid" : "2be07fbbaf84eef5",
+          "name" : "Character not found",
+          "source" : "2be07fbbaf84eef5.txt",
+          "type" : "text/plain",
+          "size" : 22
+        } ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "{'error': 'Character not found'}"
+        }, {
+          "name" : "expected_error_message",
+          "value" : "'Character not found'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Negative ID tests"
+  }, {
+    "name" : "feature",
+    "value" : "Rick and Morty ID"
+  }, {
+    "name" : "story",
+    "value" : "Rick & Morty negative ID tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMAid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "97223-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "character_id",
+    "value" : "-1"
+  }, {
+    "name" : "expected_error_message",
+    "value" : "'Character not found'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4beb45a9f0b5024.json",
+  "parameterValues" : [ "-1", "'Character not found'" ]
+}

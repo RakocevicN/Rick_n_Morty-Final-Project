@@ -1,16 +1,30 @@
 """
-Needs to be updated
-
+Test data for location tests.
+This data includes positive test cases for location tests.
+The data is organized as a dictionary, where each key represents a location name.
 """
 
 from api_file.main_apis import get_all_locations
+import allure
 
 locations_response = get_all_locations()
 
 
+@allure.step("Get test case data")
 def get_test_case_data(test_case_name, data_from_dic):
+    """
+        Get test case data for a given test case name from a data dictionary and returns
+        test case id and ID DATA
+        Parametars:
+            test_case_name (str)
+            data_from_dic (dict): test case data
+        """
+
     location_id = data_from_dic[test_case_name]['id']
     location_data = data_from_dic[test_case_name]['data']
+    allure.attach("Test Case name", test_case_name, allure.attachment_type.TEXT)
+    allure.attach("Location ID", str(location_id), allure.attachment_type.TEXT)
+    allure.attach("Location Data", str(location_data), allure.attachment_type.JSON)
     return location_id, location_data
 
 

@@ -1,0 +1,187 @@
+{
+  "uid" : "da63b7e5338fd22d",
+  "name" : "test_location_info[Gromflom Prime]",
+  "fullName" : "tests.test_location.TestRMALocation#test_location_info",
+  "historyId" : "000f1f70302ae144b2967df36ff0fcbe",
+  "time" : {
+    "start" : 1705887129902,
+    "stop" : 1705887130093,
+    "duration" : 191
+  },
+  "description" : "This tests fetches location information by location names and compares it with the expected data.",
+  "descriptionHtml" : "<p>This tests fetches location information by location names and compares it with the expected data.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This tests fetches location information by location names and compares it with the expected data.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.Get test case data for Gromflom Prime ",
+      "time" : {
+        "start" : 1705887129902,
+        "stop" : 1705887129903,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get test case data",
+        "time" : {
+          "start" : 1705887129902,
+          "stop" : 1705887129903,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2ddfb70c414f7272",
+          "name" : "Gromflom Prime",
+          "source" : "2ddfb70c414f7272.txt",
+          "type" : "text/plain",
+          "size" : 14
+        }, {
+          "uid" : "3be171b62fad2abe",
+          "name" : "19",
+          "source" : "3be171b62fad2abe.txt",
+          "type" : "text/plain",
+          "size" : 11
+        }, {
+          "uid" : "3dcb80708e4170e3",
+          "name" : "{'id': 19, 'name': 'Gromflom Prime', 'type': 'Planet', 'dimension': 'Replacement Dimension'}",
+          "source" : "3dcb80708e4170e3.json",
+          "type" : "application/json",
+          "size" : 13
+        } ],
+        "parameters" : [ {
+          "name" : "test_case_name",
+          "value" : "'Gromflom Prime'"
+        }, {
+          "name" : "data_from_dic",
+          "value" : "{'Earth (C-137)': {'id': 1, 'data': {'id': 1, 'name': 'Earth (C-137)', 'type': 'Planet', 'dimension': 'Dimension C-137'}}, 'Abadango': {'id': 2, 'data': {'id': 2, 'name': 'Abadango', 'type': 'Cluster', 'dimension': 'unknown'}}, 'Citadel of Ricks': {'id': 3, 'data': {'id': 3, 'name': 'Citadel of Ricks', 'type': 'Space station', 'dimension': 'unknown'}}, \"Worldender's lair\": {'id': 4, 'data': {'id': 4, 'name': \"Worldender's lair\", 'type': 'Planet', 'dimension': 'unknown'}}, 'Anatomy Park': {'id': 5, 'data': {'id': 5, 'name': 'Anatomy Park', 'type': 'Microverse', 'dimension': 'Dimension C-137'}}, 'Interdimensional Cable': {'id': 6, 'data': {'id': 6, 'name': 'Interdimensional Cable', 'type': 'TV', 'dimension': 'unknown'}}, 'Immortality Field Resort': {'id': 7, 'data': {'id': 7, 'name': 'Immortality Field Resort', 'type': 'Resort', 'dimension': 'unknown'}}, 'Post-Apocalyptic Earth': {'id': 8, 'data': {'id': 8, 'name': 'Post-Apocalyptic Earth', 'type': 'Planet', 'dimension': 'Post-Apocalyptic Dimension'}}, 'Purge Planet': {'id': 9, 'data': {'id': 9, 'name': 'Purge Planet', 'type': 'Planet', 'dimension': 'Replacement Dimension'}}, 'Venzenulon 7': {'id': 10, 'data': {'id': 10, 'name': 'Venzenulon 7', 'type': 'Planet', 'dimension': 'unknown'}}, 'Bepis 9': {'id': 11, 'data': {'id': 11, 'name': 'Bepis 9', 'type': 'Planet', 'dimension': 'unknown'}}, 'Cronenberg Earth': {'id': 12, 'data': {'id': 12, 'name': 'Cronenberg Earth', 'type': 'Planet', 'dimension': 'Cronenberg Dimension'}}, 'Nuptia 4': {'id': 13, 'data': {'id': 13, 'name': 'Nuptia 4', 'type': 'Planet', 'dimension': 'unknown'}}, \"Giant's Town\": {'id': 14, 'data': {'id': 14, 'name': \"Giant's Town\", 'type': 'Fantasy town', 'dimension': 'Fantasy Dimension'}}, 'Bird World': {'id': 15, 'data': {'id': 15, 'name': 'Bird World', 'type': 'Planet', 'dimension': 'unknown'}}, 'St. Gloopy Noops Hospital': {'id': 16, 'data': {'id': 16, 'name': 'St. Gloopy Noops Hospital', 'type': 'Space station', 'dimension': 'unknown'}}, 'Earth (5-126)': {'id': 17, 'data': {'id': 17, 'name': 'Earth (5-126)', 'type': 'Planet', 'dimension': 'Dimension 5-126'}}, \"Mr. Goldenfold's dream\": {'id': 18, 'data': {'id': 18, 'name': \"Mr. Goldenfold's dream\", 'type': 'Dream', 'dimension': 'Dimension C-137'}}, 'Gromflom Prime': {'id': 19, 'data': {'id': 19, 'name': 'Gromflom Prime', 'type': 'Planet', 'dimension': 'Replacement Dimension'}}, 'Earth (Replacement Dimension)': {'id': 20, 'data': {'id': 20, 'name': 'Earth (Replacement Dimension)', 'type': 'Planet', 'dimension': 'Replacement Dimension'}}}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "2.Get location by location id:19 for Gromflom Prime",
+      "time" : {
+        "start" : 1705887129903,
+        "stop" : 1705887130090,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "3.Assert response for Gromflom Prime test case",
+      "time" : {
+        "start" : 1705887130091,
+        "stop" : 1705887130093,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Assert Response Location",
+        "time" : {
+          "start" : 1705887130091,
+          "stop" : 1705887130093,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "{'id': 19, 'name': 'Gromflom Prime', 'type': 'Planet', 'dimension': 'Replacement Dimension', 'residents': [], 'url': 'https://rickandmortyapi.com/api/location/19', 'created': '2017-11-18T11:39:52.165Z'}"
+        }, {
+          "name" : "expected_data",
+          "value" : "{'id': 19, 'name': 'Gromflom Prime', 'type': 'Planet', 'dimension': 'Replacement Dimension'}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Rick & Morty Location tests"
+  }, {
+    "name" : "suite",
+    "value" : "Positive location tests"
+  }, {
+    "name" : "feature",
+    "value" : "Rick and Morty Location"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRMALocation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RHPVKMI"
+  }, {
+    "name" : "thread",
+    "value" : "97225-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_location"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_case_name",
+    "value" : "'Gromflom Prime'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da63b7e5338fd22d.json",
+  "parameterValues" : [ "'Gromflom Prime'" ]
+}

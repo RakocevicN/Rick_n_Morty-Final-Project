@@ -1,8 +1,11 @@
+"""
+asserts.id.py contains functions for asserting response data in id tests
+"""
 import allure
 import deepdiff
 
 
-@allure.step("Assert Response ID")
+@allure.step("Assert Response Positive Test")
 def assert_response_id(response, expected_data):
     """
     This function checks two conditions:
@@ -28,10 +31,12 @@ def assert_response_id(response, expected_data):
     differences = deepdiff.DeepDiff(response, expected_data, exclude_paths=excluded)
 
     if differences:
-        raise AssertionError(f"Response data does not match expected data, these are the differences: {differences}")
+        raise AssertionError(
+            f"Response data does not match expected data, these are the differences: {differences}"
+        )
 
 
-@allure.step("Assert Response Negative Tests")
+@allure.step("Assert Response Negative Test")
 def assert_response_negative_tests(response, expected_error_message):
     """
     This function checks two conditions:
@@ -51,9 +56,9 @@ def assert_response_negative_tests(response, expected_error_message):
         raise AssertionError("Expected error field in the response is missing.")
 
     error_message = response["error"]
-    differences = deepdiff.DeepDiff(error_message, expected_error_message)
 
-    if differences:
+    if error_message != expected_error_message:
         raise AssertionError(
-            f"Error message does not match expected test_data message, please see differences: {differences}")
-
+            f"Error message does not match expected test_data message. "
+            f"Expected: '{expected_error_message}', Actual: '{error_message}'"
+        )

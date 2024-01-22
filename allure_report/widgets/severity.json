@@ -1,230 +1,630 @@
 [ {
-  "uid" : "48efeebf9810a14",
-  "name" : "test_id_info[AdjudicatorRick]",
+  "uid" : "2283310e38a985ca",
+  "name" : "test_id_info[AmishCyborg]",
   "time" : {
-    "start" : 1705841831321,
-    "stop" : 1705841831623,
-    "duration" : 302
+    "start" : 1705887128661,
+    "stop" : 1705887128881,
+    "duration" : 220
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f1abc054f92d636c",
+  "uid" : "6cdc3e718a5293b0",
+  "name" : "test_episode_info[Interdimensional Cable 2: Tempting Fate]",
+  "time" : {
+    "start" : 1705887129409,
+    "stop" : 1705887129588,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "415696bbcc6843ec",
+  "name" : "test_location_info[Worldender's lair]",
+  "time" : {
+    "start" : 1705887126509,
+    "stop" : 1705887126745,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54ceca2c66b8e0c6",
+  "name" : "test_episode_info[Big Trouble in Little Sanchez]",
+  "time" : {
+    "start" : 1705887129193,
+    "stop" : 1705887129407,
+    "duration" : 214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5b0f9aae9a8a4d5",
+  "name" : "test_location_info[Earth (Replacement Dimension)]",
+  "time" : {
+    "start" : 1705887130102,
+    "stop" : 1705887130303,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4e47bb422360313",
+  "name" : "test_id_info[AlanRails]",
+  "time" : {
+    "start" : 1705887127336,
+    "stop" : 1705887127558,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bb1efb09aac050b",
+  "name" : "test_location_info[Abadango]",
+  "time" : {
+    "start" : 1705887126102,
+    "stop" : 1705887126323,
+    "duration" : 221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0320247346c7d1",
+  "name" : "test_episode_info[Rixty Minutes]",
+  "time" : {
+    "start" : 1705887126889,
+    "stop" : 1705887127081,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66cb4ab5df2a5949",
+  "name" : "test_id_info[AlienMorty]",
+  "time" : {
+    "start" : 1705887128161,
+    "stop" : 1705887128383,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68602d132c9378b9",
+  "name" : "test_id_info[JerrySmith]",
+  "time" : {
+    "start" : 1705887126381,
+    "stop" : 1705887126552,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8811e941b0966f2a",
+  "name" : "test_id_info[AntsInMyEyesJohnson]",
+  "time" : {
+    "start" : 1705887129478,
+    "stop" : 1705887129646,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "976ceaa1b5e820d0",
+  "name" : "test_episode_info[Look Who's Purging Now]",
+  "time" : {
+    "start" : 1705887129590,
+    "stop" : 1705887129810,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8ebfceceac257be",
+  "name" : "test_location_info[Nuptia 4]",
+  "time" : {
+    "start" : 1705887128618,
+    "stop" : 1705887128850,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b38f2a630d60aed0",
+  "name" : "test_episode_info[Anatomy Park]",
+  "time" : {
+    "start" : 1705887125876,
+    "stop" : 1705887126077,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3de71c7a3d82ac5c",
+  "name" : "test_episode_info[Get Schwifty]",
+  "time" : {
+    "start" : 1705887128618,
+    "stop" : 1705887128840,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a827e359cbec9aab",
+  "name" : "test_location_info[Mr. Goldenfold's dream]",
+  "time" : {
+    "start" : 1705887129682,
+    "stop" : 1705887129897,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b5e8ae1b18059bd",
+  "name" : "test_episode_info[Ricksy Business]",
+  "time" : {
+    "start" : 1705887127550,
+    "stop" : 1705887127746,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "703e2034420c7ac4",
+  "name" : "test_id_info[AdjudicatorRick]",
+  "time" : {
+    "start" : 1705887126948,
+    "stop" : 1705887127138,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d89d725bd7668105",
+  "name" : "test_location_info[Earth (5-126)]",
+  "time" : {
+    "start" : 1705887129488,
+    "stop" : 1705887129672,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64dc502527720bbf",
+  "name" : "test_episode_info[The Ricks Must Be Crazy]",
+  "time" : {
+    "start" : 1705887128844,
+    "stop" : 1705887129191,
+    "duration" : 347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae780e4eb940f9b4",
+  "name" : "test_episode_info[Rick Potion #9]",
+  "time" : {
+    "start" : 1705887126474,
+    "stop" : 1705887126678,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4beb45a9f0b5024",
+  "name" : "test_invalid_character_id[-1-Character not found]",
+  "time" : {
+    "start" : 1705887129649,
+    "stop" : 1705887129864,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3445e63ebb5ef2d",
+  "name" : "test_episode_info[Raising Gazorpazorp]",
+  "time" : {
+    "start" : 1705887126680,
+    "stop" : 1705887126887,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a66571c48331ab48",
+  "name" : "test_id_info[AntennaMorty]",
+  "time" : {
+    "start" : 1705887129107,
+    "stop" : 1705887129284,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d65feaa729ca17e0",
+  "name" : "test_episode_info[Lawnmower Dog]",
+  "time" : {
+    "start" : 1705887125686,
+    "stop" : 1705887125867,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99c760fcbdb1c001",
+  "name" : "test_id_info[SummerSmith]",
+  "time" : {
+    "start" : 1705887126008,
+    "stop" : 1705887126182,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da63b7e5338fd22d",
+  "name" : "test_location_info[Gromflom Prime]",
+  "time" : {
+    "start" : 1705887129902,
+    "stop" : 1705887130093,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f046a07d7bc5a076",
+  "name" : "test_location_info[Purge Planet]",
+  "time" : {
+    "start" : 1705887127575,
+    "stop" : 1705887127933,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8185182ceadb27e6",
+  "name" : "test_episode_info[M. Night Shaym-Aliens!]",
+  "time" : {
+    "start" : 1705887126080,
+    "stop" : 1705887126271,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6256aa3ade725b7a",
+  "name" : "test_episode_info[Close Rick-counters of the Rick Kind]",
+  "time" : {
+    "start" : 1705887127325,
+    "stop" : 1705887127548,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "705bfe4ea6e8e60d",
+  "name" : "test_id_info[AntennaRick]",
+  "time" : {
+    "start" : 1705887129288,
+    "stop" : 1705887129476,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d87957f2029ea71",
+  "name" : "test_id_info[AlienRick]",
+  "time" : {
+    "start" : 1705887128386,
+    "stop" : 1705887128653,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22d924cd42349986",
+  "name" : "test_id_info[MortySmith]",
+  "time" : {
+    "start" : 1705887125674,
+    "stop" : 1705887126004,
+    "duration" : 330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6d43f7ae1932a1b",
+  "name" : "test_episode_info[Total Rickall]",
+  "time" : {
+    "start" : 1705887128406,
+    "stop" : 1705887128612,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bedb3d28a6a63df5",
+  "name" : "test_id_info[BethSmith]",
+  "time" : {
+    "start" : 1705887126187,
+    "stop" : 1705887126378,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfb4f90e18f344b3",
+  "name" : "test_id_info[Annie]",
+  "time" : {
+    "start" : 1705887128893,
+    "stop" : 1705887129098,
+    "duration" : 205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c7902d24b0db62",
+  "name" : "test_location_info[Interdimensional Cable]",
+  "time" : {
+    "start" : 1705887126939,
+    "stop" : 1705887127130,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35fde25b784f52b0",
+  "name" : "test_id_info[Alexander]",
+  "time" : {
+    "start" : 1705887127762,
+    "stop" : 1705887127990,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2910fe90c16a2b4e",
+  "name" : "test_id_info[AlbertEinstein]",
+  "time" : {
+    "start" : 1705887127560,
+    "stop" : 1705887127756,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c251bfac7138aa5",
+  "name" : "test_location_info[St. Gloopy Noops Hospital]",
+  "time" : {
+    "start" : 1705887129299,
+    "stop" : 1705887129486,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e155cb45ead13bb2",
+  "name" : "test_location_info[Bird World]",
+  "time" : {
+    "start" : 1705887129080,
+    "stop" : 1705887129296,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7392c2311e141c97",
+  "name" : "test_episode_info[Something Ricked This Way Comes]",
+  "time" : {
+    "start" : 1705887127086,
+    "stop" : 1705887127322,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c73da2de086b2fb9",
+  "name" : "test_episode_info[Pilot]",
+  "time" : {
+    "start" : 1705887125431,
+    "stop" : 1705887125683,
+    "duration" : 252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c1f8bb6d8f1c979",
+  "name" : "test_location_info[Cronenberg Earth]",
+  "time" : {
+    "start" : 1705887128417,
+    "stop" : 1705887128610,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46825ed55f042582",
+  "name" : "test_location_info[Giant's Town]",
+  "time" : {
+    "start" : 1705887128854,
+    "stop" : 1705887129076,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d8c9ae56dc08fd6",
+  "name" : "test_episode_info[Auto Erotic Assimilation]",
+  "time" : {
+    "start" : 1705887128177,
+    "stop" : 1705887128401,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11ae7b2e0cc3911f",
+  "name" : "test_location_info[Earth (C-137)]",
+  "time" : {
+    "start" : 1705887125852,
+    "stop" : 1705887126099,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16a78cf994c0496",
+  "name" : "test_location_info[Bepis 9]",
+  "time" : {
+    "start" : 1705887128194,
+    "stop" : 1705887128412,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c1ac4a03c039697",
+  "name" : "test_id_info[AlienGoogah]",
+  "time" : {
+    "start" : 1705887127992,
+    "stop" : 1705887128157,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b23691a888eab79",
+  "name" : "test_episode_info[Mortynight Run]",
+  "time" : {
+    "start" : 1705887128003,
+    "stop" : 1705887128171,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2961f6f111d391e",
+  "name" : "test_id_info[RickSanchez]",
+  "time" : {
+    "start" : 1705887125414,
+    "stop" : 1705887125671,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efb84e0d0d9f041d",
+  "name" : "test_id_info[AbradolfLincler]",
+  "time" : {
+    "start" : 1705887126747,
+    "stop" : 1705887126946,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf493032bb5434b3",
+  "name" : "test_episode_info[Meeseeks and Destroy]",
+  "time" : {
+    "start" : 1705887126274,
+    "stop" : 1705887126460,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "510c19566e44c11e",
   "name" : "test_invalid_character_id[-10-Character not found]",
   "time" : {
-    "start" : 1705841835632,
-    "stop" : 1705841835881,
+    "start" : 1705887129867,
+    "stop" : 1705887130094,
+    "duration" : 227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0ee166e5b1c96",
+  "name" : "test_id_info[AbadangoClusterPrincess]",
+  "time" : {
+    "start" : 1705887126554,
+    "stop" : 1705887126743,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "974b3926f7c21dba",
+  "name" : "test_location_info[Citadel of Ricks]",
+  "time" : {
+    "start" : 1705887126331,
+    "stop" : 1705887126506,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8faabd648eaf86a2",
+  "name" : "test_episode_info[A Rickle in Time]",
+  "time" : {
+    "start" : 1705887127751,
+    "stop" : 1705887128000,
     "duration" : 249
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ffbe4d7e6475b1e6",
-  "name" : "test_id_info[AlienRick]",
+  "uid" : "dbc15cdc99ef1232",
+  "name" : "test_location_info[Immortality Field Resort]",
   "time" : {
-    "start" : 1705841833556,
-    "stop" : 1705841833891,
-    "duration" : 335
+    "start" : 1705887127137,
+    "stop" : 1705887127381,
+    "duration" : 244
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3daad3a2bd2b7a79",
-  "name" : "test_invalid_character_id[-1-Character not found]",
+  "uid" : "ce5e7b21ed691880",
+  "name" : "test_location_info[Post-Apocalyptic Earth]",
   "time" : {
-    "start" : 1705841835381,
-    "stop" : 1705841835627,
-    "duration" : 246
+    "start" : 1705887127389,
+    "stop" : 1705887127572,
+    "duration" : 183
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aa482adfa1c68244",
-  "name" : "test_id_info[SummerSmith]",
-  "time" : {
-    "start" : 1705841829899,
-    "stop" : 1705841830094,
-    "duration" : 195
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af8acf4095df8c4c",
-  "name" : "test_id_info[AntsInMyEyesJohnson]",
-  "time" : {
-    "start" : 1705841835083,
-    "stop" : 1705841835374,
-    "duration" : 291
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d0a6f01f1c22d9e9",
-  "name" : "test_id_info[AlanRails]",
-  "time" : {
-    "start" : 1705841831934,
-    "stop" : 1705841832254,
-    "duration" : 320
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "17626dd372428196",
-  "name" : "test_id_info[AbradolfLincler]",
-  "time" : {
-    "start" : 1705841830999,
-    "stop" : 1705841831317,
-    "duration" : 318
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c771d4b21b2fd64",
+  "uid" : "dd5d17bf566146b9",
   "name" : "test_invalid_character_id[-100-Character not found]",
   "time" : {
-    "start" : 1705841835886,
-    "stop" : 1705841836142,
-    "duration" : 256
+    "start" : 1705887130105,
+    "stop" : 1705887130315,
+    "duration" : 210
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e7d9e33a9006578f",
-  "name" : "test_id_info[RickSanchez]",
-  "time" : {
-    "start" : 1705841829016,
-    "stop" : 1705841829512,
-    "duration" : 496
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ea391dec94487ca4",
-  "name" : "test_id_info[AlbertEinstein]",
-  "time" : {
-    "start" : 1705841832261,
-    "stop" : 1705841832601,
-    "duration" : 340
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3970e2395cdf91b9",
-  "name" : "test_id_info[JerrySmith]",
-  "time" : {
-    "start" : 1705841830373,
-    "stop" : 1705841830667,
-    "duration" : 294
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1e4c401080d80cd7",
-  "name" : "test_id_info[AmishCyborg]",
-  "time" : {
-    "start" : 1705841833896,
-    "stop" : 1705841834195,
-    "duration" : 299
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e490e81c4331dc1",
-  "name" : "test_id_info[Alexander]",
-  "time" : {
-    "start" : 1705841832607,
-    "stop" : 1705841832904,
-    "duration" : 297
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "31de185a8b70dad5",
-  "name" : "test_id_info[MortySmith]",
-  "time" : {
-    "start" : 1705841829515,
-    "stop" : 1705841829897,
-    "duration" : 382
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e0cc0ad3a9494860",
-  "name" : "test_id_info[AlienGoogah]",
-  "time" : {
-    "start" : 1705841832907,
-    "stop" : 1705841833226,
-    "duration" : 319
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "31a5d73e3941ca3a",
-  "name" : "test_id_info[BethSmith]",
-  "time" : {
-    "start" : 1705841830099,
-    "stop" : 1705841830370,
-    "duration" : 271
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "717b4612d351c51c",
-  "name" : "test_id_info[AbadangoClusterPrincess]",
-  "time" : {
-    "start" : 1705841830672,
-    "stop" : 1705841830994,
-    "duration" : 322
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1d63955676e0cdb2",
-  "name" : "test_id_info[Annie]",
-  "time" : {
-    "start" : 1705841834210,
-    "stop" : 1705841834554,
-    "duration" : 344
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "44b03206ce50adf4",
-  "name" : "test_id_info[AntennaMorty]",
-  "time" : {
-    "start" : 1705841834559,
-    "stop" : 1705841834805,
-    "duration" : 246
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3922e9fa2b66be1d",
-  "name" : "test_id_info[AntennaRick]",
-  "time" : {
-    "start" : 1705841834810,
-    "stop" : 1705841835079,
-    "duration" : 269
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dfef8d321a5280e1",
-  "name" : "test_id_info[AlienMorty]",
-  "time" : {
-    "start" : 1705841833231,
-    "stop" : 1705841833550,
-    "duration" : 319
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "95d893148a08c37",
+  "uid" : "d4263a037746b0cd",
   "name" : "test_id_info[AgencyDirector]",
   "time" : {
-    "start" : 1705841831629,
-    "stop" : 1705841831929,
-    "duration" : 300
+    "start" : 1705887127148,
+    "stop" : 1705887127333,
+    "duration" : 185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e373530e6d1c825",
+  "name" : "test_location_info[Anatomy Park]",
+  "time" : {
+    "start" : 1705887126748,
+    "stop" : 1705887126936,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5ef8ade6af1724",
+  "name" : "test_location_info[Venzenulon 7]",
+  "time" : {
+    "start" : 1705887127935,
+    "stop" : 1705887128180,
+    "duration" : 245
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,5 +1,9 @@
+"""
+asserts.episode.py contains functions for asserting response data in episode tests
+"""
 import allure
 import deepdiff
+
 
 @allure.step("Assert Response Episode")
 def assert_response_episode(response, expected_data):
