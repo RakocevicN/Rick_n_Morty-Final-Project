@@ -29,20 +29,18 @@ def run_tests(test_episode, test_id, test_location, all_tests, allure_output):
             test_types.append('location')
 
     if not test_types:
-        click.echo("No test option specified. Please see --test_episode, --test_id, --test_location, or --all_tests")
+        click.echo(
+            "No test option has been specified. "
+            "Please use --test_episode, --test_id, --test_location, --all_tests")
     else:
-        # Define the folder where Allure results will be saved
+        # Folder where Allure results will be saved
         allure_results_dir = os.path.join(report_root, allure_output)
 
         # If allure_results directory doesn't exist it create
         if not os.path.exists(allure_results_dir):
             os.makedirs(allure_results_dir)
-
         os.environ["ALLURE_REPORT_ENVIRONMENT"] = "true"
-
         execute_tests_concurrently(test_types, max_workers, allure_results_dir)
-
-        # Generate the Allure report
         generate_allure_report(allure_results_dir)
 
 
