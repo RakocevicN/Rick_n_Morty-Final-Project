@@ -37,20 +37,22 @@ def get_location_info(location_id):
 @allure.step("Verify API Request")
 def verify_api_request(url):
     try:
-        response = requests.get(url)
+        with allure.step("Send API Request"):
+            response = requests.get(url)
+
+        allure.attach(str(response.status_code), "Response Status Code")
+
         if response.status_code == 200:
             return response.json()
         elif response.status_code == 429:
-            print("Too Many Requests. Please try again later.")
+            raise Exception("Too Many Requests. Please try again later.")
         elif response.status_code == 403:
-            print("Access Forbidden. Check your permissions.")
+            raise Exception("Access Forbidden. Check your permissions.")
         else:
-            print(f"Unexpected status code: {response.status_code}")
+            raise Exception(f"Unexpected status code: {response.status_code}")
     except requests.exceptions.HTTPError as http_err:
-        print(f"HTTP error occurred while fetching data: {http_err}")
+        raise Exception(f"HTTP error occurred while fetching data: {http_err}")
     except requests.exceptions.RequestException as req_err:
-        print(f"An error occurred while sending the request: {req_err}")
+        raise Exception(f"An error occurred while sending the request: {req_err}")
     except Exception as error:
-        print(f"An unexpected error occurred: {error}")
-
-    return None
+        raise Exception(f"An unexpected error occurred: {error}")
