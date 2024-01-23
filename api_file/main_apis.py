@@ -7,6 +7,7 @@ Usage:
 """
 import requests
 from config import main_api
+import allure
 
 
 def get_episode(episode_id):
@@ -31,3 +32,25 @@ def get_location_info(location_id):
     location_url = f"{main_api}/location/{location_id}"
     response = requests.get(location_url)
     return response.json()
+
+
+@allure.step("Verify API Request")
+def verify_api_request(url):
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()
+        elif response.status_code == 429:
+            print("Too Many Requests. Please try again later.")
+        elif response.status_code == 403:
+            print("Access Forbidden. Check your permissions.")
+        else:
+            print(f"Unexpected status code: {response.status_code}")
+    except requests.exceptions.HTTPError as http_err:
+        print(f"HTTP error occurred while fetching data: {http_err}")
+    except requests.exceptions.RequestException as req_err:
+        print(f"An error occurred while sending the request: {req_err}")
+    except Exception as error:
+        print(f"An unexpected error occurred: {error}")
+
+    return None
