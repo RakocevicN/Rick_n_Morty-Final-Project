@@ -15,13 +15,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10.12
+          python-version: 3.9.18
 
-      - name: Install project dependencies
+      - name: Create and activate virtual environment
         run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install -r requirements.txt
+          python3.9 -m venv myenv
+          source myenv/bin/activate
+
+      - name: Install dependencies from requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Install pylint
         run: pip install pylint
