@@ -23,6 +23,9 @@ jobs:
           source venv/bin/activate
           pip install -r requirements.txt
 
+      - name: Install pylint
+        run: pip install pylint
+
       - name: Run pylint
         run: |
           pylint **/*.py || true
