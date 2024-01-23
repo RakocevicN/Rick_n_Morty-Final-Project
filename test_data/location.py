@@ -3,9 +3,8 @@ Test data for location tests.
 This data includes positive test cases for location tests.
 The data is organized as a dictionary, where each key represents a location name.
 """
-
-from api_file.main_apis import get_all_locations
 import allure
+from api_file.main_apis import get_all_locations
 
 locations_response = get_all_locations()
 

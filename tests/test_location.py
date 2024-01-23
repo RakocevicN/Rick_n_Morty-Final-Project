@@ -1,8 +1,8 @@
 import pytest
+import allure
 from api_file.main_apis import get_location_info
 from asserts.location import assert_response_location
 from test_data.location import get_test_case_data, location_expected_data
-import allure
 
 
 @allure.feature("Rick and Morty Location")

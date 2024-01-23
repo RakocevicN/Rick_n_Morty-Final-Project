@@ -268,7 +268,7 @@ id_positive_expected_data = {
 
 def generate_invalid_character_id_test_data():
     """
-    Generate invalid for ID test negative tests cases and returns dictionary containing negative test data
+    Generate test data for negative test cases involving invalid character IDs.
     """
     return negative_id_expected_data
 

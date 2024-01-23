@@ -1,5 +1,5 @@
 """
-asserts.episode.py contains functions for asserting response data in episode tests
+asserts.episode.py contains functions for asserting response data in episode tests.
 """
 import allure
 import deepdiff
@@ -13,9 +13,7 @@ def assert_response_episode(response, expected_data):
     2. It compares the response data with expected data for episodes, excluding specified paths.
 
     AssertionError will be present if any of the verification conditions fail.
-
     """
-
     allure.attach("Response", str(response), allure.attachment_type.JSON)
     allure.attach("Expected Data", str(expected_data), allure.attachment_type.JSON)
 
